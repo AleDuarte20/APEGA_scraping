@@ -1,0 +1,72 @@
+[2022-06-06T16:03:24.491] [INFO] logs_machine_l435up75vp1ir4x2msj - l435up75vp1ir4x2msj list: [
+  {
+    "_id": "6281ae6cbe4844c6753095f1",
+    "name": "0906670 BC Ltd. O/A Rocky Point Engineering",
+    "permitNumber": "P13332",
+    "permitToPractice": "Engineering",
+    "address": "208-20171 92A AVE",
+    "phoneNumber": "1 604 888-7779",
+    "licenseDate": "2016-01-04",
+    "city": "Langley",
+    "postalCode": "V1M 3A5",
+    "province": "BC",
+    "member": "Richard Corra",
+    "__v": 0
+  },
+  {
+    "_id": "6281ae74be4844c675309601",
+    "name": "1104229 BC Ltd.",
+    "permitNumber": "P15683",
+    "permitToPractice": "Engineering",
+    "address": "977 Wellington Dr",
+    "phoneNumber": "1 604 339-6549",
+    "licenseDate": "2022-04-07",
+    "city": "North Vancouver",
+    "postalCode": "V7K 1L1",
+    "province": "BC",
+    "member": "Soheil Soleimani-Vafa",
+    "__v": 0
+  },
+  {
+    "_id": "629621e103294de925519c68",
+    "name": "1191027 BC Ltd.",
+    "permitNumber": "P14681",
+    "permitToPractice": "Engineering",
+    "address": "Box 73",
+    "phoneNumber": "1 250 464-0632",
+    "licenseDate": "2019-04-11",
+    "city": "Cranbrook",
+    "postalCode": "V1C 4H6",
+    "province": "BC",
+    "member": "Doug Vanhooren",
+    "__v": 0
+  },
+  {
+    "_id": "629621e203294de925519c69",
+    "name": "1212714 B.C. Ltd.",
+    "permitNumber": "P15734",
+    "permitToPractice": "Engineering",
+    "address": "1305 - 1331 Homer Street",
+    "phoneNumber": "1 604 250-1029",
+    "licenseDate": "2022-04-25",
+    "city": "Vancouver",
+    "postalCode": "V6B 5M5",
+    "province": "BC",
+    "member": "Scott Sakai",
+    "__v": 0
+  },
+  {
+    "_id": "629621e603294de925519c71",
+    "name": "1303476 BC Ltd.",
+    "permitNumber": "P15428",
+    "permitToPractice": "Engineering",
+    "address": "2021 Uplands Rd",
+    "phoneNumber": "1 587 225-0570",
+    "licenseDate": "2021-06-08",
+    "city": "Revelstoke",
+    "postalCode": "V0E 2S3",
+    "province": "BC",
+    "member": "Kim Kappler",
+    "__v": 0
+  }
+]

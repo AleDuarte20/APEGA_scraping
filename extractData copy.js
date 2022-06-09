@@ -1,7 +1,7 @@
 const puppeteer = require('puppeteer');
-// const mongooseHelper = require('./generic-helper/MongooseHelper')
-// const db = new mongooseHelper('127.0.0.1:27017','Apega')
-// let datosModel = require('./Model/usersModel')
+const mongooseHelper = require('./generic-helper/MongooseHelper')
+const db = new mongooseHelper('127.0.0.1:27017','Apega')
+let datosModel = require('./Model/usersModel')
 
 logger = require('./generic-helper/Log').build()
 const Settings = require('./Settings')
@@ -17,7 +17,7 @@ async function saveData(data, page){
 
     logger.info(`INSIDE SAVEDATA`)
     try {
-        await db.connect()
+    await db.connect()
         for (let j=0; j < data.length; j++) {
             let item = data[j]
             // logger.info(`loading...`)
@@ -45,18 +45,18 @@ async function saveData(data, page){
                 }
             })
         }
-        await page.waitForTimeout(1000)
-        await db.disconnect()
     } catch (e) {
         logger.info(`error on save data ${e}`)
     }
     
+    await db.disconnect()
 }
 
 
 (async () => {
     logger.info('beggin run')
 
+    await db.connect()
     
     const browser = await puppeteer.launch({
         headless: false,
@@ -154,20 +154,42 @@ async function saveData(data, page){
         
         await page.waitForTimeout(1000)
 
-        // await db.connect()
-        if (data.length > 0) {
-            await saveData(data, page)
-        }else{
-            logger.info(`data lenght 0`)
-        }
-       
-        // await db.disconnect()
+        
+        for (let j=0; j < data.length; j++) {
+            let item = data[j]
+            // logger.info(`loading...`)
 
+            let apegaDatos = new datosModel({
+                name:item.name,
+                permitNumber:item.permitNumber ,
+                permitToPractice:item.permitToPractice ,
+                address:item.address ,
+                phoneNumber:item.phoneNumber ,
+                licenseDate:item.licenseDate ,
+                city:item.city ,
+                postalCode:item.postalCode ,
+                province:item.province ,
+                member:item.member
+                
+            })
+            await page.waitForTimeout(500)
+            // logger.info('antes de guardar los datos')
+            await apegaDatos.save(function(error){
+                if(error){
+                    logger.info(`usuario ya existente ${error}`)
+                }else{
+                    logger.info(`se guardo este usuario ${item.name}`)
+                }
+            })
+        }
+
+        // await saveData(data, page)
         
         
         
         logger.info(`NEXT PAGE`);
     }
+    await db.disconnect()
     
     logger.info(`END SCRAPING`);
     await browser.close();
