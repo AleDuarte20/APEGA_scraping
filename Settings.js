@@ -3,7 +3,7 @@ class Setting {
           this.settings = [
             'mongoDbName',
             'mongoUri',
-            // 'proxy',
+            'proxy',
             'max_search_pagination',
             'debug',
           ]
@@ -22,7 +22,7 @@ class Setting {
         
         //default values
         settings.debug ? null : settings.debug = true
-        // settings.proxy ? null : settings.proxy = {"server":"gate.smartproxy.com", "port":7000, "username":"user-sp54d7e3b9-country-fr", "password":"yfllka6nf4rc"}
+        settings.proxy ? null : settings.proxy = {"server":"gate.smartproxy.com", "port":7000, "username":"user-sp54d7e3b9-country-fr", "password":"yfllka6nf4rc"}
   
         settings.mongoDbName ? null : settings.mongoDbName = 'Apega'
         settings.mongoUri ? null : settings.mongoUri = `localhost:27017','Apega`

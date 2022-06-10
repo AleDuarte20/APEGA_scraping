@@ -1,5 +1,9 @@
 // const { MongoClient} = require('mongodb');
 const mongoose = require('mongoose');
+logger = require('./Log').build()
+
+const Settings = require('../Settings')
+settings = Settings.build();
 
 
 class MongooseHelper {
@@ -13,28 +17,28 @@ class MongooseHelper {
     //   try {
     //     this.mongoClient = await MongoClient.connect(`mongodb://${this.server}/${this.database}`, {useNewUrlParser: true});
     //     this.db = this.mongoClient.db(this.database);
-    //     console.log('Successfully connected to MongoDB');
+    //     logger.info('Successfully connected to MongoDB');
     //   } catch (error) {
-    //     console.log(error);
+    //     logger.info(error);
     //   }
     // }
     
     // async disconnect() {
     //   try{ this.mongoClient ? this.mongoClient.close() : null; }catch(error){};
-    //   console.log('Closed mongodb');
+    //   logger.info('Closed mongodb');
     // }
 
     //mongoose
     async connect() {
       try{await mongoose.connect(`mongodb://${this.server}/${this.database}`, {useNewUrlParser: true});
-        console.log('Successfully connected to MongoDB');
+        logger.info('Successfully connected to MongoDB');
       } catch(error){
-        console.log(error);
+        logger.info(error);
       }
     };
     async disconnect() {
-      try{await mongoose.disconnect()}catch(error){console.log(error)}
-      console.log('Closed mongodb');
+      try{await mongoose.disconnect()}catch(error){logger.info(error)}
+      logger.info('Closed mongodb');
     };
 
   };

@@ -60,10 +60,45 @@ async function saveData(data, page){
     
     const browser = await puppeteer.launch({
         headless: false,
-        devtools: false,
+        devtools: true,
         defaultViewport: { width: 1366, height: 768 }
     });
     const page = await browser.newPage();
+
+    await page.setRequestInterception(true);
+
+
+    page.on('request', (request) => {
+
+        request.alreadyHandled = false
+
+        const block_ressources = ['image','font', 'texttrack', 'manifest'];
+        // const block_ressources = ['image', 'media',  'font', 'texttrack', 'object', 'beacon', 'csp_report', 'imageset', 'manifest'];
+
+        // block_ressources.push('.*?favicon.ico')
+        // block_ressources.push('.*?\.png')
+        // block_ressources.push('analytics*.')
+        // block_ressources.push('gtm.*')
+        // block_ressources.push('events*.')
+        // block_ressources.push('.*\.svg')
+        // block_ressources.push('.*\.css')
+
+        if (!request.alreadyHandled) {
+            if (block_ressources.indexOf(request.resourceType()) !== -1) {
+                request.abort()
+            }else{
+                logger.info(`NO HANDLE:${request.url()}`)
+                request.continue()
+            }
+            
+        }
+        // Block All Images
+        // if (request.url().endsWith('.png') || request.url().endsWith('.jpg')) {
+        //     request.abort();
+        // } else {
+        //     request.continue()
+        // }
+    });
 
     for (let i = 1; i <= maxPag; i++) {
 

@@ -4,7 +4,7 @@ const moment = require('moment')
 class Log {
     constructor(){
         this.log4js = require('log4js')
-        this.id = null
+        // this.id = null
     }
 
     static build(functionId) {
@@ -31,8 +31,10 @@ class Log {
 
     info(message) {
         // settings.debug ? (console.log(`${moment().format('YYYYMMDD HH:mm:ss.SSSSSS')} ${process.env.uuid} ${message}`), this.logs.info(`${process.env.uuid} ${message}`)) : null
+        //este es para guardar los logs en una carpeta
+        // console.log(`${moment().format('YYYYMMDD HH:mm:ss.SSSSSS')} ${process.env.uuid} ${this.id ? this.id : '   '} ${message}`), this.logs.info(`${process.env.uuid} ${message}`)
+        //este es para ver los logs con la hora de ejecucion
         console.log(`${moment().format('YYYYMMDD HH:mm:ss.SSSSSS')} ${message}`), this.logs.info(`${process.env.uuid} ${message}`)
-        
     }
 }
 
