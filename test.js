@@ -14,7 +14,7 @@ settings = Settings.build();
 const TorProxyHelper = require('./generic-helper/TorProxyHelper')
 const torAxios = new TorProxyHelper()
 
-logger.info(`myproxy:${JSON.stringify(proxy,null,2)}`)
+logger.info(`myproxy:${JSON.stringify(proxy)}`)
 // logger.info(`TEST FOR LOGGER JEJE`)
 
 
@@ -61,7 +61,7 @@ async function testRequestUsingTor() {
         method:'GET',
         url:baseUrl,
     })
-    console.log(response.data)
+    logger.info(response.data)
 }
 
 async function testTorAxios() {
@@ -78,13 +78,13 @@ async function testTorAxios() {
         responseType: "buffer",
         withoutProxy:true
       })
-    console.log(`testGetCategoryLastPagination:${JSON.stringify(response.data)}`)
+    logger.info(`testGetCategoryLastPagination:${JSON.stringify(response.data)}`)
 }
 
 
 ;(async () =>{
-    await testMongoose();
+    // await testMongoose();
     // await testMongoClient();
-    // await testTorAxios();
+    await testTorAxios();
     // await testRequestUsingTor();
  })()
