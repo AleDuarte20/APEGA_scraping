@@ -14,8 +14,6 @@ async function saveData(data, page){
     const mongooseHelper = require('./generic-helper/MongooseHelper')
     const db = new mongooseHelper('127.0.0.1:27017','Apega')
     let datosModel = require('./Model/usersModel')
-
-    logger.info(`INSIDE SAVEDATA`)
     try {
         await db.connect()
         for (let j=0; j < data.length; j++) {
@@ -57,17 +55,28 @@ async function saveData(data, page){
 (async () => {
     logger.info('beggin run')
 
-    
-    const browser = await puppeteer.launch({
+    const options = {
         headless: false,
         devtools: true,
-        defaultViewport: { width: 1366, height: 768 }
-    });
+        defaultViewport: { width: 1366, height: 768 },
+        args:[]
+    } 
+    options.args.push('--disable-site-isolation-trials')
+    options.args.push('--disable-features=site-per-process')
+    options.args.push('--disable-web-security')
+    options.executablePath = `node_modules/puppeteer/.local-chromium/linux-991974/chrome-linux/chrome`
+    // process.env.headless === 'true' ? options.args.push('--headless') : null
+    if (process.platform === 'linux') {
+        options.args.push(`--remote-debugging-port=${80}`)
+        options.args.push('--remote-debugging-address=0.0.0.0')
+        options.args.push('--headless')
+        options.args.push('--no-sandbox')   
+    }
+    const browser = await puppeteer.launch(options);
+
     const page = await browser.newPage();
 
     await page.setRequestInterception(true);
-
-
     page.on('request', (request) => {
 
         request.alreadyHandled = false
@@ -75,29 +84,15 @@ async function saveData(data, page){
         const block_ressources = ['image','font', 'texttrack', 'manifest'];
         // const block_ressources = ['image', 'media',  'font', 'texttrack', 'object', 'beacon', 'csp_report', 'imageset', 'manifest'];
 
-        // block_ressources.push('.*?favicon.ico')
-        // block_ressources.push('.*?\.png')
-        // block_ressources.push('analytics*.')
-        // block_ressources.push('gtm.*')
-        // block_ressources.push('events*.')
-        // block_ressources.push('.*\.svg')
-        // block_ressources.push('.*\.css')
-
         if (!request.alreadyHandled) {
             if (block_ressources.indexOf(request.resourceType()) !== -1) {
                 request.abort()
             }else{
-                logger.info(`NO HANDLE:${request.url()}`)
+                logger.info(`NO BLOCKED:${request.url()}`)
                 request.continue()
             }
             
         }
-        // Block All Images
-        // if (request.url().endsWith('.png') || request.url().endsWith('.jpg')) {
-        //     request.abort();
-        // } else {
-        //     request.continue()
-        // }
     });
 
     for (let i = 1; i <= maxPag; i++) {
@@ -191,7 +186,8 @@ async function saveData(data, page){
 
         // await db.connect()
         if (data.length > 0) {
-            await saveData(data, page)
+            logger.info(`BEFORE SAVE DATA KBRON`)
+            // await saveData(data, page)
         }else{
             logger.info(`data lenght 0`)
         }

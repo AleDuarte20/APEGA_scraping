@@ -2,10 +2,10 @@ const MongooseHelper = require('./generic-helper/MongooseHelper');
 const db = new MongooseHelper('localhost:27017','Apega');
 const datosModel = require('./Model/usersModel');
 process.env.uuid = (new Date()).getTime().toString(36) + Math.random().toString(36).slice(2)
-process.env.proxy = `{"server":"gate.smartproxy.com", "port":7000, "username":"user-sp54d7e3b9-country-fr", "password":"yfllka6nf4rc"}`
+// process.env.proxy = `{"server":"gate.smartproxy.com", "port":7000, "username":"user-sp54d7e3b9-country-fr", "password":"yfllka6nf4rc"}`
 
 let proxy = settings.proxy
-process.env.proxy ? logger.info(process.env.proxy) : logger.info('bad proxy data')
+process.env.proxy ? logger.info(process.env.proxy) : logger.info('proxy not exits')
 
 logger = require('./generic-helper/Log').build()
 const Settings = require('./Settings')
@@ -83,8 +83,8 @@ async function testTorAxios() {
 
 
 ;(async () =>{
-    // await testMongoose();
+    await testMongoose();
     // await testMongoClient();
     // await testTorAxios();
-    await testRequestUsingTor();
+    // await testRequestUsingTor();
  })()

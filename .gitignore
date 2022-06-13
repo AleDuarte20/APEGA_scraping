@@ -1,10 +1,18 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+#Log
+*.log
+
+# node-waf configuration
+.bash_history
+.pki/
+
 # dependencies
-/node_modules
+node_modules/
+logs/
 /.pnp
 .pnp.js
-logs/
+
 # testing
 /coverage
 

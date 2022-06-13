@@ -1332,3 +1332,1571 @@
 [2022-06-09T21:41:15.186] [INFO] logs_machine_undefined - undefined usuario ya existente MongoServerError: E11000 duplicate key error collection: Apega.apegadatos index: name_1 dup key: { name: "0906670 BC Ltd. O/A Rocky Point Engineering" }
 [2022-06-09T21:41:15.673] [INFO] logs_machine_undefined - undefined usuario ya existente MongoServerError: E11000 duplicate key error collection: Apega.apegadatos index: name_1 dup key: { name: "1001874 Alberta Ltd." }
 [2022-06-09T21:41:16.188] [INFO] logs_machine_undefined - undefined usuario ya existente MongoServerError: E11000 duplicate key error collection: Apega.apegadatos index: name_1 dup key: { name: "1009060 Alberta Ltd O/A Geodetic Surveys & Engineering Ltd" }
+[2022-06-10T16:13:31.320] [INFO] logs_machine_undefined - l48neh492vjl1x13mjv proxy not exits
+[2022-06-10T16:18:56.659] [INFO] logs_machine_undefined - undefined beggin run
+[2022-06-10T17:39:19.126] [INFO] logs_machine_undefined - undefined beggin run
+[2022-06-10T17:52:47.645] [INFO] logs_machine_undefined - undefined beggin run
+[2022-06-10T17:55:05.698] [INFO] logs_machine_undefined - undefined beggin run
+[2022-06-10T19:00:08.764] [INFO] logs_machine_undefined - undefined beggin run
+[2022-06-10T19:00:16.204] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/members/permit-holder-directory?page=1
+[2022-06-10T19:00:18.013] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/Frontend-Assembly/Telerik.Sitefinity.Frontend/assets/dist/js/jquery.min.js?package=Talon&v=MTU1MzUzMDE5OQ%3d%3d
+[2022-06-10T19:00:18.018] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/ResourcePackages/Talon/assets/dist/css/main.min.css?package=Talon
+[2022-06-10T19:00:18.104] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://polyfill.io/v3/polyfill.min.js?features=Array.prototype.find%2Cfetch
+[2022-06-10T19:00:18.407] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/Frontend-Assembly/Telerik.Sitefinity.Frontend/assets/dist/js/all.min.js?package=Talon&v=MTU1MzUzMDE5OQ%3d%3d
+[2022-06-10T19:00:19.011] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/Frontend-Assembly/Telerik.Sitefinity.Frontend.Search/Mvc/Scripts/SearchBox/Search-box.js?package=Talon&v=MTIuMC43MDM3LjA%3d
+[2022-06-10T19:00:19.191] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/ResourcePackages/Talon/assets/dist/js/serviceview-base.min.js
+[2022-06-10T19:00:19.194] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/ResourcePackages/Talon/assets/dist/js/permitholders-serviceview.min.js
+[2022-06-10T19:00:19.196] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194
+[2022-06-10T19:00:19.199] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.googletagmanager.com/gtm.js?id=GTM-WKMT44G
+[2022-06-10T19:00:19.366] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/ResourcePackages/Talon/assets/dist/images/symbol-defs.svg
+[2022-06-10T19:00:19.811] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.googletagmanager.com/gtag/js?id=G-3SW3B8RMR8&l=dataLayer&cx=c
+[2022-06-10T19:00:19.812] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.google-analytics.com/analytics.js
+[2022-06-10T19:00:19.813] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.youtube.com/iframe_api
+[2022-06-10T19:00:19.817] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://connect.facebook.net/en_US/fbevents.js
+[2022-06-10T19:00:19.819] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://static.ads-twitter.com/uwt.js
+[2022-06-10T19:00:19.821] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://tags.srv.stackadapt.com/events.js
+[2022-06-10T19:00:20.158] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.google-analytics.com/g/collect?v=2&tid=G-3SW3B8RMR8&gtm=2oe680&_p=761497877&_z=ccd.tdB&cid=440802642.1654887620&ul=en-us&sr=800x600&_s=1&sid=1654887620&sct=1&seg=0&dl=https%3A%2F%2Fwww.apega.ca%2Fmembers%2Fpermit-holder-directory%3Fpage%3D1&dt=Permit%20Holder%20Directory%20%7C%20APEGA&en=page_view&_fv=1&_nsi=1&_ss=1
+[2022-06-10T19:00:20.215] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://ods.apega.ca/odata/v1/Register/Taxonomies?$orderby=Title
+[2022-06-10T19:00:20.286] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.google-analytics.com/plugins/ua/linkid.js
+[2022-06-10T19:00:20.315] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://connect.facebook.net/signals/config/980776025421829?v=2.9.62&r=stable
+[2022-06-10T19:00:20.375] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.youtube.com/s/player/23010b46/www-widgetapi.vflset/www-widgetapi.js
+[2022-06-10T19:00:20.408] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j96&tid=UA-72779499-11&cid=440802642.1654887620&jid=1223783540&gjid=548446056&_gid=824362792.1654887620&_u=aCDAiEAjBAAAAE~&z=19269331
+[2022-06-10T19:00:20.748] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://tags.srv.stackadapt.com/sa.css
+[2022-06-10T19:00:20.749] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://tags.srv.stackadapt.com/sa.jpeg
+[2022-06-10T19:00:20.993] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/cdn-cgi/rum?
+[2022-06-10T19:00:21.129] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://ods.apega.ca/odata/v1/Register/PermitHolders?$count=true&$top=12&$expand=ResponsibleMembers&$orderby=LegalName
+[2022-06-10T19:00:22.127] [INFO] logs_machine_undefined - undefined PAGE 1
+[2022-06-10T19:00:22.145] [INFO] logs_machine_undefined - undefined Extracting data from page 1
+[2022-06-10T19:00:24.154] [INFO] logs_machine_undefined - undefined showing data extracted 
+
+[2022-06-10T19:00:25.156] [INFO] logs_machine_undefined - undefined data [
+  {
+    "name": "0906670 BC Ltd. O/A Rocky Point Engineering",
+    "permitNumber": "P13332",
+    "permitToPractice": "Engineering",
+    "address": "208-20171 92A AVE",
+    "phoneNumber": "1 604 888-7779",
+    "licenseDate": "2016-01-04",
+    "city": "Langley",
+    "postalCode": "V1M 3A5",
+    "province": "BC",
+    "member": "Richard Corra"
+  },
+  {
+    "name": "1001874 Alberta Ltd.",
+    "permitNumber": "P12787",
+    "permitToPractice": "Engineering",
+    "address": "479 OZERNA RD NW",
+    "phoneNumber": "1 780 916-1745",
+    "licenseDate": "2014-07-24",
+    "city": "Edmonton",
+    "postalCode": "T5Z 3P8",
+    "province": "AB",
+    "member": "Gordon Vetro"
+  },
+  {
+    "name": "1009060 Alberta Ltd O/A Geodetic Surveys & Engineering Ltd",
+    "permitNumber": "P7998",
+    "permitToPractice": "Engineering",
+    "address": "9538 87 ST NW",
+    "phoneNumber": "1 780 465-3389",
+    "licenseDate": "2002-11-01",
+    "city": "Edmonton",
+    "postalCode": "T6C 3J1",
+    "province": "AB",
+    "member": "Andrew Banack"
+  },
+  {
+    "name": "1019740 Alberta Limited",
+    "permitNumber": "P14325",
+    "permitToPractice": "Engineering",
+    "address": "731 57 St SW",
+    "phoneNumber": "1 403 978-0910",
+    "licenseDate": "2018-04-18",
+    "city": "Edmonton",
+    "postalCode": "Whithout Postal Code",
+    "province": "AB",
+    "member": "Gurinder Heer"
+  },
+  {
+    "name": "1025883 Alberta Ltd O/A ET Consulting",
+    "permitNumber": "P8064",
+    "permitToPractice": "Engineering",
+    "address": "739 WILLAMETTE DR SE",
+    "phoneNumber": "1 403 271-5312",
+    "licenseDate": "2003-01-21",
+    "city": "Calgary",
+    "postalCode": "T2J 2A3",
+    "province": "AB",
+    "member": "Edward Tahmazian"
+  },
+  {
+    "name": "1038473 Alberta Ltd",
+    "permitNumber": "P11105",
+    "permitToPractice": "Engineering",
+    "address": "118 GLENEAGLES ESTATES LANE",
+    "phoneNumber": "1 403 852-2994",
+    "licenseDate": "2010-09-09",
+    "city": "Cochrane",
+    "postalCode": "T4C 2H7",
+    "province": "AB",
+    "member": "Mark Smigelski"
+  },
+  {
+    "name": "1089079 Alberta Inc",
+    "permitNumber": "P8430",
+    "permitToPractice": "Engineering",
+    "address": "80 HAWKHILL RD NW",
+    "phoneNumber": "1 403 239-7193",
+    "licenseDate": "2004-02-26",
+    "city": "Calgary",
+    "postalCode": "T3G 3H8",
+    "province": "AB",
+    "member": "Derek Warltier"
+  },
+  {
+    "name": "1104175 Alberta Limited",
+    "permitNumber": "P8871",
+    "permitToPractice": "Engineering",
+    "address": "PO Box 531",
+    "phoneNumber": "1 780 448-2051",
+    "licenseDate": "2005-08-01",
+    "city": "Edmonton",
+    "postalCode": "T5T 5L4",
+    "province": "AB",
+    "member": "Emad El-Zein"
+  },
+  {
+    "name": "1104229 BC Ltd.",
+    "permitNumber": "P15683",
+    "permitToPractice": "Engineering",
+    "address": "977 Wellington Dr",
+    "phoneNumber": "1 604 339-6549",
+    "licenseDate": "2022-04-07",
+    "city": "North Vancouver",
+    "postalCode": "V7K 1L1",
+    "province": "BC",
+    "member": "Soheil Soleimani-Vafa"
+  },
+  {
+    "name": "1109883 Alberta Ltd.",
+    "permitNumber": "P10519",
+    "permitToPractice": "Engineering",
+    "address": "101-18146 105 Ave NW",
+    "phoneNumber": "1 780 484-1095",
+    "licenseDate": "2009-02-25",
+    "city": "Edmonton",
+    "postalCode": "T5S 2T4",
+    "province": "AB",
+    "member": "Erik Jacobsen"
+  },
+  {
+    "name": "1156182 Alberta Ltd",
+    "permitNumber": "P10084",
+    "permitToPractice": "Engineering",
+    "address": "99 SUN HARBOUR CRES SE",
+    "phoneNumber": "1 403 830-4942",
+    "licenseDate": "2008-02-20",
+    "city": "Calgary",
+    "postalCode": "T2X 3B3",
+    "province": "AB",
+    "member": "Chris Valcourt"
+  },
+  {
+    "name": "11811347 Canada Inc.",
+    "permitNumber": "P15226",
+    "permitToPractice": "Engineering",
+    "address": "114-1215 13 St SE",
+    "phoneNumber": "1 403 261-9985",
+    "licenseDate": "2020-11-24",
+    "city": "Calgary",
+    "postalCode": "T2G 3J4",
+    "province": "AB",
+    "member": "Trevor Zaharichuk"
+  }
+]
+[2022-06-10T19:00:25.156] [INFO] logs_machine_undefined - undefined data: 12
+[2022-06-10T19:05:24.681] [INFO] logs_machine_undefined - undefined beggin run
+[2022-06-10T19:05:33.055] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/members/permit-holder-directory?page=1
+[2022-06-10T19:05:34.967] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/Frontend-Assembly/Telerik.Sitefinity.Frontend/assets/dist/js/jquery.min.js?package=Talon&v=MTU1MzUzMDE5OQ%3d%3d
+[2022-06-10T19:05:34.969] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/ResourcePackages/Talon/assets/dist/css/main.min.css?package=Talon
+[2022-06-10T19:05:35.071] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://polyfill.io/v3/polyfill.min.js?features=Array.prototype.find%2Cfetch
+[2022-06-10T19:05:35.276] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/Frontend-Assembly/Telerik.Sitefinity.Frontend/assets/dist/js/all.min.js?package=Talon&v=MTU1MzUzMDE5OQ%3d%3d
+[2022-06-10T19:05:35.285] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/Frontend-Assembly/Telerik.Sitefinity.Frontend.Search/Mvc/Scripts/SearchBox/Search-box.js?package=Talon&v=MTIuMC43MDM3LjA%3d
+[2022-06-10T19:05:35.287] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/ResourcePackages/Talon/assets/dist/js/serviceview-base.min.js
+[2022-06-10T19:05:35.291] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194
+[2022-06-10T19:05:35.292] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/ResourcePackages/Talon/assets/dist/js/permitholders-serviceview.min.js
+[2022-06-10T19:05:35.295] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.googletagmanager.com/gtm.js?id=GTM-WKMT44G
+[2022-06-10T19:05:35.469] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/ResourcePackages/Talon/assets/dist/images/symbol-defs.svg
+[2022-06-10T19:05:35.759] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://ods.apega.ca/odata/v1/Register/Taxonomies?$orderby=Title
+[2022-06-10T19:05:36.064] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.googletagmanager.com/gtag/js?id=G-3SW3B8RMR8&l=dataLayer&cx=c
+[2022-06-10T19:05:36.066] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.google-analytics.com/analytics.js
+[2022-06-10T19:05:36.068] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.youtube.com/iframe_api
+[2022-06-10T19:05:36.069] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://connect.facebook.net/en_US/fbevents.js
+[2022-06-10T19:05:36.079] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://static.ads-twitter.com/uwt.js
+[2022-06-10T19:05:36.080] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://tags.srv.stackadapt.com/events.js
+[2022-06-10T19:05:36.369] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/cdn-cgi/rum?
+[2022-06-10T19:05:36.478] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.google-analytics.com/g/collect?v=2&tid=G-3SW3B8RMR8&gtm=2oe680&_p=435023971&_z=ccd.tdB&cid=437478043.1654887936&ul=en-us&sr=800x600&_s=1&sid=1654887936&sct=1&seg=0&dl=https%3A%2F%2Fwww.apega.ca%2Fmembers%2Fpermit-holder-directory%3Fpage%3D1&dt=Permit%20Holder%20Directory%20%7C%20APEGA&en=page_view&_fv=1&_nsi=1&_ss=1
+[2022-06-10T19:05:36.721] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://connect.facebook.net/signals/config/980776025421829?v=2.9.62&r=stable
+[2022-06-10T19:05:36.742] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.youtube.com/s/player/23010b46/www-widgetapi.vflset/www-widgetapi.js
+[2022-06-10T19:05:36.744] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://ods.apega.ca/odata/v1/Register/PermitHolders?$count=true&$top=12&$expand=ResponsibleMembers&$orderby=LegalName
+[2022-06-10T19:05:37.103] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.google-analytics.com/plugins/ua/linkid.js
+[2022-06-10T19:05:37.139] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://tags.srv.stackadapt.com/sa.css
+[2022-06-10T19:05:37.142] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://tags.srv.stackadapt.com/sa.jpeg
+[2022-06-10T19:05:37.299] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j96&tid=UA-72779499-11&cid=437478043.1654887936&jid=1515806628&gjid=2005856065&_gid=1139822880.1654887937&_u=aCDAiEAjBAAAAE~&z=1323263941
+[2022-06-10T19:05:39.112] [INFO] logs_machine_undefined - undefined PAGE 1
+[2022-06-10T19:05:39.134] [INFO] logs_machine_undefined - undefined Extracting data from page 1
+[2022-06-10T19:05:41.144] [INFO] logs_machine_undefined - undefined showing data extracted 
+
+[2022-06-10T19:05:42.145] [INFO] logs_machine_undefined - undefined data [
+  {
+    "name": "0906670 BC Ltd. O/A Rocky Point Engineering",
+    "permitNumber": "P13332",
+    "permitToPractice": "Engineering",
+    "address": "208-20171 92A AVE",
+    "phoneNumber": "1 604 888-7779",
+    "licenseDate": "2016-01-04",
+    "city": "Langley",
+    "postalCode": "V1M 3A5",
+    "province": "BC",
+    "member": "Richard Corra"
+  },
+  {
+    "name": "1001874 Alberta Ltd.",
+    "permitNumber": "P12787",
+    "permitToPractice": "Engineering",
+    "address": "479 OZERNA RD NW",
+    "phoneNumber": "1 780 916-1745",
+    "licenseDate": "2014-07-24",
+    "city": "Edmonton",
+    "postalCode": "T5Z 3P8",
+    "province": "AB",
+    "member": "Gordon Vetro"
+  },
+  {
+    "name": "1009060 Alberta Ltd O/A Geodetic Surveys & Engineering Ltd",
+    "permitNumber": "P7998",
+    "permitToPractice": "Engineering",
+    "address": "9538 87 ST NW",
+    "phoneNumber": "1 780 465-3389",
+    "licenseDate": "2002-11-01",
+    "city": "Edmonton",
+    "postalCode": "T6C 3J1",
+    "province": "AB",
+    "member": "Andrew Banack"
+  },
+  {
+    "name": "1019740 Alberta Limited",
+    "permitNumber": "P14325",
+    "permitToPractice": "Engineering",
+    "address": "731 57 St SW",
+    "phoneNumber": "1 403 978-0910",
+    "licenseDate": "2018-04-18",
+    "city": "Edmonton",
+    "postalCode": "Whithout Postal Code",
+    "province": "AB",
+    "member": "Gurinder Heer"
+  },
+  {
+    "name": "1025883 Alberta Ltd O/A ET Consulting",
+    "permitNumber": "P8064",
+    "permitToPractice": "Engineering",
+    "address": "739 WILLAMETTE DR SE",
+    "phoneNumber": "1 403 271-5312",
+    "licenseDate": "2003-01-21",
+    "city": "Calgary",
+    "postalCode": "T2J 2A3",
+    "province": "AB",
+    "member": "Edward Tahmazian"
+  },
+  {
+    "name": "1038473 Alberta Ltd",
+    "permitNumber": "P11105",
+    "permitToPractice": "Engineering",
+    "address": "118 GLENEAGLES ESTATES LANE",
+    "phoneNumber": "1 403 852-2994",
+    "licenseDate": "2010-09-09",
+    "city": "Cochrane",
+    "postalCode": "T4C 2H7",
+    "province": "AB",
+    "member": "Mark Smigelski"
+  },
+  {
+    "name": "1089079 Alberta Inc",
+    "permitNumber": "P8430",
+    "permitToPractice": "Engineering",
+    "address": "80 HAWKHILL RD NW",
+    "phoneNumber": "1 403 239-7193",
+    "licenseDate": "2004-02-26",
+    "city": "Calgary",
+    "postalCode": "T3G 3H8",
+    "province": "AB",
+    "member": "Derek Warltier"
+  },
+  {
+    "name": "1104175 Alberta Limited",
+    "permitNumber": "P8871",
+    "permitToPractice": "Engineering",
+    "address": "PO Box 531",
+    "phoneNumber": "1 780 448-2051",
+    "licenseDate": "2005-08-01",
+    "city": "Edmonton",
+    "postalCode": "T5T 5L4",
+    "province": "AB",
+    "member": "Emad El-Zein"
+  },
+  {
+    "name": "1104229 BC Ltd.",
+    "permitNumber": "P15683",
+    "permitToPractice": "Engineering",
+    "address": "977 Wellington Dr",
+    "phoneNumber": "1 604 339-6549",
+    "licenseDate": "2022-04-07",
+    "city": "North Vancouver",
+    "postalCode": "V7K 1L1",
+    "province": "BC",
+    "member": "Soheil Soleimani-Vafa"
+  },
+  {
+    "name": "1109883 Alberta Ltd.",
+    "permitNumber": "P10519",
+    "permitToPractice": "Engineering",
+    "address": "101-18146 105 Ave NW",
+    "phoneNumber": "1 780 484-1095",
+    "licenseDate": "2009-02-25",
+    "city": "Edmonton",
+    "postalCode": "T5S 2T4",
+    "province": "AB",
+    "member": "Erik Jacobsen"
+  },
+  {
+    "name": "1156182 Alberta Ltd",
+    "permitNumber": "P10084",
+    "permitToPractice": "Engineering",
+    "address": "99 SUN HARBOUR CRES SE",
+    "phoneNumber": "1 403 830-4942",
+    "licenseDate": "2008-02-20",
+    "city": "Calgary",
+    "postalCode": "T2X 3B3",
+    "province": "AB",
+    "member": "Chris Valcourt"
+  },
+  {
+    "name": "11811347 Canada Inc.",
+    "permitNumber": "P15226",
+    "permitToPractice": "Engineering",
+    "address": "114-1215 13 St SE",
+    "phoneNumber": "1 403 261-9985",
+    "licenseDate": "2020-11-24",
+    "city": "Calgary",
+    "postalCode": "T2G 3J4",
+    "province": "AB",
+    "member": "Trevor Zaharichuk"
+  }
+]
+[2022-06-10T19:05:42.145] [INFO] logs_machine_undefined - undefined data: 12
+[2022-06-10T19:05:43.146] [INFO] logs_machine_undefined - undefined BEFORE SAVE DATA KBRON
+[2022-06-10T19:05:43.147] [INFO] logs_machine_undefined - undefined NEXT PAGE
+[2022-06-10T19:05:43.155] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/members/permit-holder-directory?page=2
+[2022-06-10T19:05:43.469] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.google-analytics.com/g/collect?v=2&tid=G-3SW3B8RMR8&gtm=2oe680&_p=435023971&_z=ccd.tdB&cid=437478043.1654887936&ul=en-us&sr=800x600&_s=2&sid=1654887936&sct=1&seg=0&dl=https%3A%2F%2Fwww.apega.ca%2Fmembers%2Fpermit-holder-directory%3Fpage%3D1&dt=Permit%20Holder%20Directory%20%7C%20APEGA&en=user_engagement&_et=7005
+[2022-06-10T19:05:43.470] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/cdn-cgi/rum?
+[2022-06-10T19:05:43.486] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/ResourcePackages/Talon/assets/dist/css/main.min.css?package=Talon
+[2022-06-10T19:05:43.511] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.googletagmanager.com/gtm.js?id=GTM-WKMT44G
+[2022-06-10T19:05:43.604] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://ods.apega.ca/odata/v1/Register/Taxonomies?$orderby=Title
+[2022-06-10T19:05:43.667] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.googletagmanager.com/gtag/js?id=G-3SW3B8RMR8&l=dataLayer&cx=c
+[2022-06-10T19:05:43.668] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.google-analytics.com/analytics.js
+[2022-06-10T19:05:43.669] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.youtube.com/iframe_api
+[2022-06-10T19:05:43.673] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://connect.facebook.net/en_US/fbevents.js
+[2022-06-10T19:05:43.678] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://static.ads-twitter.com/uwt.js
+[2022-06-10T19:05:43.680] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://tags.srv.stackadapt.com/events.js
+[2022-06-10T19:05:43.691] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/cdn-cgi/rum?
+[2022-06-10T19:05:43.715] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.google-analytics.com/plugins/ua/linkid.js
+[2022-06-10T19:05:43.780] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://connect.facebook.net/signals/config/980776025421829?v=2.9.62&r=stable
+[2022-06-10T19:05:43.811] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.youtube.com/s/player/23010b46/www-widgetapi.vflset/www-widgetapi.js
+[2022-06-10T19:05:43.870] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://ods.apega.ca/odata/v1/Register/PermitHolders?$count=true&$top=12&$skip=12&$expand=ResponsibleMembers&$orderby=LegalName
+[2022-06-10T19:05:43.895] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://tags.srv.stackadapt.com/sa.css
+[2022-06-10T19:05:43.896] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://tags.srv.stackadapt.com/sa.jpeg
+[2022-06-10T19:05:45.115] [INFO] logs_machine_undefined - undefined PAGE 2
+[2022-06-10T19:05:45.129] [INFO] logs_machine_undefined - undefined Extracting data from page 2
+[2022-06-10T19:05:47.136] [INFO] logs_machine_undefined - undefined showing data extracted 
+
+[2022-06-10T19:05:48.142] [INFO] logs_machine_undefined - undefined data [
+  {
+    "name": "1191027 BC Ltd.",
+    "permitNumber": "P14681",
+    "permitToPractice": "Engineering",
+    "address": "Box 73",
+    "phoneNumber": "1 250 464-0632",
+    "licenseDate": "2019-04-11",
+    "city": "Cranbrook",
+    "postalCode": "V1C 4H6",
+    "province": "BC",
+    "member": "Doug Vanhooren"
+  },
+  {
+    "name": "1212714 B.C. Ltd.",
+    "permitNumber": "P15734",
+    "permitToPractice": "Engineering",
+    "address": "1305 - 1331 Homer Street",
+    "phoneNumber": "1 604 250-1029",
+    "licenseDate": "2022-04-25",
+    "city": "Vancouver",
+    "postalCode": "V6B 5M5",
+    "province": "BC",
+    "member": "Scott Sakai"
+  },
+  {
+    "name": "1219146 Alberta Ltd.",
+    "permitNumber": "P9444",
+    "permitToPractice": "Engineering",
+    "address": "502-10339 124 ST NW",
+    "phoneNumber": "1 780 932-3434",
+    "licenseDate": "2007-03-19",
+    "city": "Edmonton",
+    "postalCode": "T5N 3W1",
+    "province": "AB",
+    "member": "Dale Mangan"
+  },
+  {
+    "name": "1233881 Alberta Ltd.",
+    "permitNumber": "P12407",
+    "permitToPractice": "Engineering",
+    "address": "251201 Welland Dr",
+    "phoneNumber": "1 403 614-2285",
+    "licenseDate": "2013-10-04",
+    "city": "Calgary",
+    "postalCode": "T3R 1L3",
+    "province": "AB",
+    "member": "Surjit Badhesha"
+  },
+  {
+    "name": "1300354 Alberta Ltd",
+    "permitNumber": "P9592",
+    "permitToPractice": "Engineering",
+    "address": "143 CHRISTIE PARK HILL SW",
+    "phoneNumber": "1 403 970-3202",
+    "licenseDate": "2007-02-14",
+    "city": "Calgary",
+    "postalCode": "T3H 2V5",
+    "province": "AB",
+    "member": "Philippe Lagace"
+  },
+  {
+    "name": "1303476 BC Ltd.",
+    "permitNumber": "P15428",
+    "permitToPractice": "Engineering",
+    "address": "2021 Uplands Rd",
+    "phoneNumber": "1 587 225-0570",
+    "licenseDate": "2021-06-08",
+    "city": "Revelstoke",
+    "postalCode": "V0E 2S3",
+    "province": "BC",
+    "member": "Kim Kappler"
+  },
+  {
+    "name": "1308075 Alberta Ltd.",
+    "permitNumber": "P13437",
+    "permitToPractice": "Engineering",
+    "address": "127 TEMPLE CRES W",
+    "phoneNumber": "1 403 380-9786",
+    "licenseDate": "2016-03-14",
+    "city": "Lethbridge",
+    "postalCode": "T1K 4T3",
+    "province": "AB",
+    "member": "Garnet Bailey"
+  },
+  {
+    "name": "1329512 Alberta Ltd.",
+    "permitNumber": "P11970",
+    "permitToPractice": "Engineering",
+    "address": "43 SUNLAKE WAY SE",
+    "phoneNumber": "1 403 827-2297",
+    "licenseDate": "2012-09-13",
+    "city": "Calgary",
+    "postalCode": "T2X 3E3",
+    "province": "AB",
+    "member": "Shaun Hill"
+  },
+  {
+    "name": "1330286 Alberta Ltd.",
+    "permitNumber": "P13050",
+    "permitToPractice": "Engineering",
+    "address": "15116 76A AVE NW",
+    "phoneNumber": "1 780 231-8590",
+    "licenseDate": "2015-05-05",
+    "city": "Edmonton",
+    "postalCode": "T5R 3A6",
+    "province": "AB",
+    "member": "Pierre Mertiny"
+  },
+  {
+    "name": "1351910 Alberta Inc.",
+    "permitNumber": "P10265",
+    "permitToPractice": "Engineering",
+    "address": "43 EVERRIDGE RD SW",
+    "phoneNumber": "1 403 990-0262",
+    "licenseDate": "2008-06-02",
+    "city": "Calgary",
+    "postalCode": "T2Y 4S9",
+    "province": "AB",
+    "member": "Yuriy Morayko"
+  },
+  {
+    "name": "1357066 Alberta Ltd",
+    "permitNumber": "P10971",
+    "permitToPractice": "Engineering",
+    "address": "613-10301 104 ST NW",
+    "phoneNumber": "1 877 718-2035",
+    "licenseDate": "2010-04-06",
+    "city": "Edmonton",
+    "postalCode": "T5J 1B9",
+    "province": "AB",
+    "member": "Ryan Beaubien"
+  },
+  {
+    "name": "1357115 Alberta Ltd.",
+    "permitNumber": "P13985",
+    "permitToPractice": "Engineering",
+    "address": "6824 COACH RIDGE RD SW",
+    "phoneNumber": "1 403 771-0578",
+    "licenseDate": "2017-06-09",
+    "city": "Calgary",
+    "postalCode": "T3H 1J5",
+    "province": "AB",
+    "member": "Steven Little"
+  }
+]
+[2022-06-10T19:05:48.144] [INFO] logs_machine_undefined - undefined data: 12
+[2022-06-10T19:05:48.746] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.google-analytics.com/g/collect?v=2&tid=G-3SW3B8RMR8&gtm=2oe680&_p=853372247&_z=ccd.tdB&cid=437478043.1654887936&ul=en-us&sr=800x600&_s=1&sid=1654887936&sct=1&seg=1&dl=https%3A%2F%2Fwww.apega.ca%2Fmembers%2Fpermit-holder-directory%3Fpage%3D2&dt=Permit%20Holder%20Directory%20%7C%20APEGA&en=page_view
+[2022-06-10T19:05:49.145] [INFO] logs_machine_undefined - undefined BEFORE SAVE DATA KBRON
+[2022-06-10T19:05:49.145] [INFO] logs_machine_undefined - undefined NEXT PAGE
+[2022-06-10T19:05:49.151] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/members/permit-holder-directory?page=3
+[2022-06-10T19:05:49.447] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.google-analytics.com/g/collect?v=2&tid=G-3SW3B8RMR8&gtm=2oe680&_p=853372247&_z=ccd.tdB&cid=437478043.1654887936&ul=en-us&sr=800x600&_s=2&sid=1654887936&sct=1&seg=1&dl=https%3A%2F%2Fwww.apega.ca%2Fmembers%2Fpermit-holder-directory%3Fpage%3D2&dt=Permit%20Holder%20Directory%20%7C%20APEGA&en=user_engagement&_et=5695
+[2022-06-10T19:05:49.449] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/cdn-cgi/rum?
+[2022-06-10T19:05:49.468] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/ResourcePackages/Talon/assets/dist/css/main.min.css?package=Talon
+[2022-06-10T19:05:49.545] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.youtube.com/iframe_api
+[2022-06-10T19:05:49.547] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://static.ads-twitter.com/uwt.js
+[2022-06-10T19:05:49.549] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://tags.srv.stackadapt.com/events.js
+[2022-06-10T19:05:49.667] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://ods.apega.ca/odata/v1/Register/Taxonomies?$orderby=Title
+[2022-06-10T19:05:49.761] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://tags.srv.stackadapt.com/sa.jpeg
+[2022-06-10T19:05:49.788] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/cdn-cgi/rum?
+[2022-06-10T19:05:49.964] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://ods.apega.ca/odata/v1/Register/PermitHolders?$count=true&$top=12&$skip=24&$expand=ResponsibleMembers&$orderby=LegalName
+[2022-06-10T19:05:50.438] [INFO] logs_machine_undefined - undefined PAGE 3
+[2022-06-10T19:05:50.452] [INFO] logs_machine_undefined - undefined Extracting data from page 3
+[2022-06-10T19:05:52.458] [INFO] logs_machine_undefined - undefined showing data extracted 
+
+[2022-06-10T19:05:53.459] [INFO] logs_machine_undefined - undefined data [
+  {
+    "name": "1393722 Alberta Ltd.",
+    "permitNumber": "P11437",
+    "permitToPractice": "Engineering",
+    "address": "170 SHAWBROOKE GREEN SW",
+    "phoneNumber": "1 403 470-8074",
+    "licenseDate": "2011-07-18",
+    "city": "Calgary",
+    "postalCode": "T2Y 3C6",
+    "province": "AB",
+    "member": "Milan Cerovsek"
+  },
+  {
+    "name": "1446486 Alberta Inc.",
+    "permitNumber": "P15672",
+    "permitToPractice": "Engineering",
+    "address": "PO Box 16103 RPO Lower Mt. Royal",
+    "phoneNumber": "1 619 538-8700",
+    "licenseDate": "2022-04-25",
+    "city": "Calgary",
+    "postalCode": "T2T 5H7",
+    "province": "AB",
+    "member": "Matthew Jewett"
+  },
+  {
+    "name": "1449136 Alberta Ltd.",
+    "permitNumber": "P12268",
+    "permitToPractice": "Engineering",
+    "address": "8-54315 Range Rd 251",
+    "phoneNumber": "1 780 267-5801",
+    "licenseDate": "2013-06-11",
+    "city": "Sturgeon County",
+    "postalCode": "T8T 0A2",
+    "province": "AB",
+    "member": "Bruce Moisey"
+  },
+  {
+    "name": "1453902 Alberta Ltd.",
+    "permitNumber": "P12156",
+    "permitToPractice": "Engineering",
+    "address": "24 Nolancliff Bay NW",
+    "phoneNumber": "1 403 730-9556",
+    "licenseDate": "2013-03-08",
+    "city": "Calgary",
+    "postalCode": "T3R 0T5",
+    "province": "AB",
+    "member": "Jing Gu"
+  },
+  {
+    "name": "1455253 Alberta Inc.",
+    "permitNumber": "P10547",
+    "permitToPractice": "Engineering",
+    "address": "100-111 5 Ave SW",
+    "phoneNumber": "1 403 519-5854",
+    "licenseDate": "2009-03-24",
+    "city": "Calgary",
+    "postalCode": "T2P 3Y6",
+    "province": "AB",
+    "member": "Christopher Kellerman"
+  },
+  {
+    "name": "1477925 Alberta Inc.",
+    "permitNumber": "P12498",
+    "permitToPractice": "Engineering",
+    "address": "8 SHEEP RIVER LINK",
+    "phoneNumber": "1 403 995-4261",
+    "licenseDate": "2014-01-08",
+    "city": "Okotoks",
+    "postalCode": "T1S 1R3",
+    "province": "AB",
+    "member": "Siva Subramaniam"
+  },
+  {
+    "name": "1489344 Alberta Ltd.",
+    "permitNumber": "P11951",
+    "permitToPractice": "Engineering",
+    "address": "102 - 10101 100 Ave",
+    "phoneNumber": "1 780 605-0539",
+    "licenseDate": "2012-09-04",
+    "city": "Grande Prairie",
+    "postalCode": "T8V 0V4",
+    "province": "AB",
+    "member": "Rhonda Hewko"
+  },
+  {
+    "name": "1504874 Alberta Ltd.",
+    "permitNumber": "P10972",
+    "permitToPractice": "Engineering",
+    "address": "79 EVERGREEN HTS SW",
+    "phoneNumber": "1 403 251-6653",
+    "licenseDate": "2010-05-06",
+    "city": "Calgary",
+    "postalCode": "T2Y 3Y9",
+    "province": "AB",
+    "member": "Srini Sundaram"
+  },
+  {
+    "name": "1505285 Alberta Ltd.",
+    "permitNumber": "P10947",
+    "permitToPractice": "Engineering",
+    "address": "78 Jacobs Close",
+    "phoneNumber": "1 780 920-7503",
+    "licenseDate": "2010-03-16",
+    "city": "St. Albert",
+    "postalCode": "T8N 7S3",
+    "province": "AB",
+    "member": "Trent Hoffman"
+  },
+  {
+    "name": "1512107 Alberta Limited",
+    "permitNumber": "P13687",
+    "permitToPractice": "Engineering",
+    "address": "19 LAKE TWINTREE BAY SE",
+    "phoneNumber": "1 403 462-9462",
+    "licenseDate": "2016-11-02",
+    "city": "Calgary",
+    "postalCode": "T2J 2W5",
+    "province": "AB",
+    "member": "Michael Pacholski"
+  },
+  {
+    "name": "1539064 Alberta Ltd",
+    "permitNumber": "P11953",
+    "permitToPractice": "Engineering",
+    "address": "1712 23 ST SW",
+    "phoneNumber": "1 403 875-1855",
+    "licenseDate": "2012-09-04",
+    "city": "Calgary",
+    "postalCode": "T3C 1H6",
+    "province": "AB",
+    "member": "Daryle Warnke"
+  },
+  {
+    "name": "1539233 Alberta Ltd.",
+    "permitNumber": "P11617",
+    "permitToPractice": "Engineering",
+    "address": "418 REEVES CREST NW",
+    "phoneNumber": "1 780 246-0615",
+    "licenseDate": "2011-12-06",
+    "city": "Edmonton",
+    "postalCode": "T6R 2A4",
+    "province": "AB",
+    "member": "Timothy Cartmell"
+  }
+]
+[2022-06-10T19:05:53.460] [INFO] logs_machine_undefined - undefined data: 12
+[2022-06-10T19:05:54.461] [INFO] logs_machine_undefined - undefined BEFORE SAVE DATA KBRON
+[2022-06-10T19:05:54.462] [INFO] logs_machine_undefined - undefined NEXT PAGE
+[2022-06-10T19:05:54.469] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/members/permit-holder-directory?page=4
+[2022-06-10T19:05:54.636] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.google-analytics.com/g/collect?v=2&tid=G-3SW3B8RMR8&gtm=2oe680&_p=2100662046&_z=ccd.tdB&cid=437478043.1654887936&ul=en-us&sr=800x600&_s=1&sid=1654887936&sct=1&seg=1&dl=https%3A%2F%2Fwww.apega.ca%2Fmembers%2Fpermit-holder-directory%3Fpage%3D3&dt=Permit%20Holder%20Directory%20%7C%20APEGA&en=page_view
+[2022-06-10T19:05:54.772] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.google-analytics.com/g/collect?v=2&tid=G-3SW3B8RMR8&gtm=2oe680&_p=2100662046&_z=ccd.tdB&cid=437478043.1654887936&ul=en-us&sr=800x600&_s=2&sid=1654887936&sct=1&seg=1&dl=https%3A%2F%2Fwww.apega.ca%2Fmembers%2Fpermit-holder-directory%3Fpage%3D3&dt=Permit%20Holder%20Directory%20%7C%20APEGA&en=user_engagement&_et=5114
+[2022-06-10T19:05:54.774] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/cdn-cgi/rum?
+[2022-06-10T19:05:55.051] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.youtube.com/iframe_api
+[2022-06-10T19:05:55.060] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://static.ads-twitter.com/uwt.js
+[2022-06-10T19:05:55.063] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://tags.srv.stackadapt.com/events.js
+[2022-06-10T19:05:55.261] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://ods.apega.ca/odata/v1/Register/Taxonomies?$orderby=Title
+[2022-06-10T19:05:55.399] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://tags.srv.stackadapt.com/sa.css
+[2022-06-10T19:05:55.400] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://tags.srv.stackadapt.com/sa.jpeg
+[2022-06-10T19:05:55.487] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/cdn-cgi/rum?
+[2022-06-10T19:05:55.555] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://ods.apega.ca/odata/v1/Register/PermitHolders?$count=true&$top=12&$skip=36&$expand=ResponsibleMembers&$orderby=LegalName
+[2022-06-10T19:05:56.314] [INFO] logs_machine_undefined - undefined PAGE 4
+[2022-06-10T19:05:56.329] [INFO] logs_machine_undefined - undefined Extracting data from page 4
+[2022-06-10T19:05:58.337] [INFO] logs_machine_undefined - undefined showing data extracted 
+
+[2022-06-10T19:05:59.340] [INFO] logs_machine_undefined - undefined data [
+  {
+    "name": "1546642 Alberta Inc.",
+    "permitNumber": "P15440",
+    "permitToPractice": "Engineering",
+    "address": "42 Martha's Haven Way NE",
+    "phoneNumber": "1 403 400-1681",
+    "licenseDate": "2021-06-28",
+    "city": "Calgary",
+    "postalCode": "T3J 4H5",
+    "province": "AB",
+    "member": "Muhamad Khan"
+  },
+  {
+    "name": "1546866 Ontario Inc.",
+    "permitNumber": "P12701",
+    "permitToPractice": "Engineering",
+    "address": "4811 KING ST E",
+    "phoneNumber": "1 905 563-5090",
+    "licenseDate": "2014-05-12",
+    "city": "Beamsville",
+    "postalCode": "L0R 1B0",
+    "province": "ON",
+    "member": "Kevin VanWingerden"
+  },
+  {
+    "name": "1582677 Alberta Inc.",
+    "permitNumber": "P11371",
+    "permitToPractice": "Engineering",
+    "address": "324-823 5 Ave NW",
+    "phoneNumber": "1 403 863-2729",
+    "licenseDate": "2011-05-18",
+    "city": "Calgary",
+    "postalCode": "T2N 0R5",
+    "province": "AB",
+    "member": "William Bussing"
+  },
+  {
+    "name": "1592791 Alberta Ltd.",
+    "permitNumber": "P12275",
+    "permitToPractice": "Engineering",
+    "address": "120 ELGIN ESTATES HILL SE",
+    "phoneNumber": "1 403 466-6002",
+    "licenseDate": "2013-06-19",
+    "city": "Calgary",
+    "postalCode": "T2Z 4Z5",
+    "province": "AB",
+    "member": "Denny Furlong"
+  },
+  {
+    "name": "1595121 Alberta Ltd.",
+    "permitNumber": "P12411",
+    "permitToPractice": "Engineering",
+    "address": "64 EVERGREEN ROW SW",
+    "phoneNumber": "1 403 613-9288",
+    "licenseDate": "2013-10-21",
+    "city": "Calgary",
+    "postalCode": "T2Y 5H9",
+    "province": "AB",
+    "member": "Michael An"
+  },
+  {
+    "name": "1595185 Alberta Ltd.",
+    "permitNumber": "P13451",
+    "permitToPractice": "Engineering",
+    "address": "380 TREMBLANT WAY SW",
+    "phoneNumber": "1 403 671-3553",
+    "licenseDate": "2016-04-04",
+    "city": "Calgary",
+    "postalCode": "T3H 0Z9",
+    "province": "AB",
+    "member": "Byungkyu An"
+  },
+  {
+    "name": "1602605 Alberta Ltd.",
+    "permitNumber": "P11351",
+    "permitToPractice": "Engineering",
+    "address": "88 WILLOW PARK GREEN SE",
+    "phoneNumber": "1 403 278-3869",
+    "licenseDate": "2011-04-29",
+    "city": "Calgary",
+    "postalCode": "T2J 3L1",
+    "province": "AB",
+    "member": "Jody Craig"
+  },
+  {
+    "name": "1613269 Alberta Inc.",
+    "permitNumber": "P15660",
+    "permitToPractice": "Engineering",
+    "address": "3329 40 St SW",
+    "phoneNumber": "1 403 450-3182",
+    "licenseDate": "2022-05-16",
+    "city": "Calgary",
+    "postalCode": "T3E 3K1",
+    "province": "AB",
+    "member": "Ghulam Mustafa"
+  },
+  {
+    "name": "1626020 Alberta Ltd.",
+    "permitNumber": "P11334",
+    "permitToPractice": "Engineering",
+    "address": "2104 23 AVE SW",
+    "phoneNumber": "1 403 256-5767",
+    "licenseDate": "2011-04-13",
+    "city": "Calgary",
+    "postalCode": "T2T 0W1",
+    "province": "AB",
+    "member": "David Leech"
+  },
+  {
+    "name": "1626830 Alberta Ltd.",
+    "permitNumber": "P12453",
+    "permitToPractice": "Engineering",
+    "address": "1504 22 ST NW",
+    "phoneNumber": "1 403 813-0525",
+    "licenseDate": "2013-11-18",
+    "city": "Calgary",
+    "postalCode": "T2N 2N2",
+    "province": "AB",
+    "member": "Sam Bouey"
+  },
+  {
+    "name": "1627113 Alberta Ltd.",
+    "permitNumber": "P12943",
+    "permitToPractice": "Engineering",
+    "address": "Box 653",
+    "phoneNumber": "1 403 702-2423",
+    "licenseDate": "2015-01-14",
+    "city": "Cremona",
+    "postalCode": "T0M 0R0",
+    "province": "AB",
+    "member": "Chad Anderson"
+  },
+  {
+    "name": "1628977 Alberta Ltd.",
+    "permitNumber": "P11529",
+    "permitToPractice": "Engineering",
+    "address": "133 WESTCHESTER WAY",
+    "phoneNumber": "1 403 235-0044",
+    "licenseDate": "2011-10-14",
+    "city": "Chestermere",
+    "postalCode": "T1X 1B8",
+    "province": "AB",
+    "member": "Renaud Bonneville"
+  }
+]
+[2022-06-10T19:05:59.341] [INFO] logs_machine_undefined - undefined data: 12
+[2022-06-10T19:06:00.151] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.google-analytics.com/g/collect?v=2&tid=G-3SW3B8RMR8&gtm=2oe680&_p=873547856&_z=ccd.tdB&cid=437478043.1654887936&ul=en-us&sr=800x600&_s=1&sid=1654887936&sct=1&seg=1&dl=https%3A%2F%2Fwww.apega.ca%2Fmembers%2Fpermit-holder-directory%3Fpage%3D4&dt=Permit%20Holder%20Directory%20%7C%20APEGA&en=page_view
+[2022-06-10T19:06:00.341] [INFO] logs_machine_undefined - undefined BEFORE SAVE DATA KBRON
+[2022-06-10T19:06:00.341] [INFO] logs_machine_undefined - undefined NEXT PAGE
+[2022-06-10T19:06:00.346] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/members/permit-holder-directory?page=5
+[2022-06-10T19:06:00.633] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.google-analytics.com/g/collect?v=2&tid=G-3SW3B8RMR8&gtm=2oe680&_p=873547856&_z=ccd.tdB&cid=437478043.1654887936&ul=en-us&sr=800x600&_s=2&sid=1654887936&sct=1&seg=1&dl=https%3A%2F%2Fwww.apega.ca%2Fmembers%2Fpermit-holder-directory%3Fpage%3D4&dt=Permit%20Holder%20Directory%20%7C%20APEGA&en=user_engagement&_et=5474
+[2022-06-10T19:06:00.634] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/cdn-cgi/rum?
+[2022-06-10T19:06:00.659] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/ResourcePackages/Talon/assets/dist/css/main.min.css?package=Talon
+[2022-06-10T19:06:00.746] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.googletagmanager.com/gtm.js?id=GTM-WKMT44G
+[2022-06-10T19:06:00.900] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://ods.apega.ca/odata/v1/Register/Taxonomies?$orderby=Title
+[2022-06-10T19:06:01.009] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.googletagmanager.com/gtag/js?id=G-3SW3B8RMR8&l=dataLayer&cx=c
+[2022-06-10T19:06:01.010] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.google-analytics.com/analytics.js
+[2022-06-10T19:06:01.011] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.youtube.com/iframe_api
+[2022-06-10T19:06:01.023] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://connect.facebook.net/en_US/fbevents.js
+[2022-06-10T19:06:01.025] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://static.ads-twitter.com/uwt.js
+[2022-06-10T19:06:01.026] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://tags.srv.stackadapt.com/events.js
+[2022-06-10T19:06:01.043] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/cdn-cgi/rum?
+[2022-06-10T19:06:01.149] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.google-analytics.com/plugins/ua/linkid.js
+[2022-06-10T19:06:01.231] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://ods.apega.ca/odata/v1/Register/PermitHolders?$count=true&$top=12&$skip=48&$expand=ResponsibleMembers&$orderby=LegalName
+[2022-06-10T19:06:01.294] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://tags.srv.stackadapt.com/sa.jpeg
+[2022-06-10T19:06:02.316] [INFO] logs_machine_undefined - undefined PAGE 5
+[2022-06-10T19:06:02.330] [INFO] logs_machine_undefined - undefined Extracting data from page 5
+[2022-06-10T19:06:04.340] [INFO] logs_machine_undefined - undefined showing data extracted 
+
+[2022-06-10T19:06:05.341] [INFO] logs_machine_undefined - undefined data [
+  {
+    "name": "1629283 Alberta Inc.",
+    "permitNumber": "P15602",
+    "permitToPractice": "Engineering",
+    "address": "419-110 Auburn Meadows View SE",
+    "phoneNumber": "1 403 903-0300",
+    "licenseDate": "2022-02-09",
+    "city": "Calgary",
+    "postalCode": "T3M 2M2",
+    "province": "AB",
+    "member": "Francis Onipede"
+  },
+  {
+    "name": "1638402 Alberta Inc.",
+    "permitNumber": "P12189",
+    "permitToPractice": "Engineering",
+    "address": "305 MCKENZIE LAKE BAY SE",
+    "phoneNumber": "1 403 872-7454",
+    "licenseDate": "2013-03-19",
+    "city": "Calgary",
+    "postalCode": "T2Z 2H3",
+    "province": "AB",
+    "member": "Tarek Saman"
+  },
+  {
+    "name": "1639966 Alberta Ltd.",
+    "permitNumber": "P15504",
+    "permitToPractice": "Engineering",
+    "address": "Unit 207-11121 82 Ave NW",
+    "phoneNumber": "1 780 966-9697",
+    "licenseDate": "2021-09-08",
+    "city": "Edmonton",
+    "postalCode": "T6G 0T4",
+    "province": "AB",
+    "member": "Thanyakarn Pootakham"
+  },
+  {
+    "name": "1645125 Alberta Ltd",
+    "permitNumber": "P11708",
+    "permitToPractice": "Engineering",
+    "address": "20-27305 Township Rd 391",
+    "phoneNumber": "1 403 392-1778",
+    "licenseDate": "2012-02-15",
+    "city": "Red Deer",
+    "postalCode": "T4S 2A1",
+    "province": "AB",
+    "member": "Weifeng Liu"
+  },
+  {
+    "name": "1661193 Alberta Inc.",
+    "permitNumber": "P14499",
+    "permitToPractice": "Engineering",
+    "address": "2527 Charlesbois Dr NW",
+    "phoneNumber": "1 403 478-0153",
+    "licenseDate": "2018-09-17",
+    "city": "Calgary",
+    "postalCode": "T2L 0T5",
+    "province": "AB",
+    "member": "Amy Zhu"
+  },
+  {
+    "name": "1677423 Alberta Corp.",
+    "permitNumber": "P15630",
+    "permitToPractice": "Engineering",
+    "address": "2109 18 St SW",
+    "phoneNumber": "1 587 216-0418",
+    "licenseDate": "2022-04-06",
+    "city": "Calgary",
+    "postalCode": "T2T 4T3",
+    "province": "AB",
+    "member": "Diana Olariu"
+  },
+  {
+    "name": "1678659 Alberta Ltd.",
+    "permitNumber": "P14349",
+    "permitToPractice": "Engineering",
+    "address": "133 Cimarron Grove Circle",
+    "phoneNumber": "1 403 921-6223",
+    "licenseDate": "2018-05-01",
+    "city": "Okotoks",
+    "postalCode": "T1S 2M1",
+    "province": "AB",
+    "member": "Robert Ellis"
+  },
+  {
+    "name": "1681464 Alberta ULC",
+    "permitNumber": "P11849",
+    "permitToPractice": "Engineering",
+    "address": "257 Miskow Close",
+    "phoneNumber": "1 403 3892827",
+    "licenseDate": "2012-06-20",
+    "city": "Canmore",
+    "postalCode": "T1W 3G7",
+    "province": "AB",
+    "member": "David Van Den Beld"
+  },
+  {
+    "name": "1683959 Alberta Ltd.",
+    "permitNumber": "P12975",
+    "permitToPractice": "Engineering",
+    "address": "4516 45 Ave",
+    "phoneNumber": "1 403 307-0884",
+    "licenseDate": "2015-02-13",
+    "city": "Lacombe",
+    "postalCode": "T4L 1W3",
+    "province": "AB",
+    "member": "Charles Norvila"
+  },
+  {
+    "name": "1689229 Alberta Inc.",
+    "permitNumber": "P12530",
+    "permitToPractice": "Engineering",
+    "address": "164 CITADEL PEAK CIR NW",
+    "phoneNumber": "1 403 869-4908",
+    "licenseDate": "2014-01-28",
+    "city": "Calgary",
+    "postalCode": "T3G 4H7",
+    "province": "AB",
+    "member": "Greg Harasym"
+  },
+  {
+    "name": "1711458 Alberta Inc.",
+    "permitNumber": "P14642",
+    "permitToPractice": "Engineering",
+    "address": "555 Sunmills Dr SE",
+    "phoneNumber": "1 403 923-7263",
+    "licenseDate": "2019-03-06",
+    "city": "Calgary",
+    "postalCode": "T2X 3B3",
+    "province": "AB",
+    "member": "Keith Sand"
+  },
+  {
+    "name": "1722445 Alberta Ltd.",
+    "permitNumber": "P15598",
+    "permitToPractice": "Engineering",
+    "address": "35 Aspen Stone Grove SW",
+    "phoneNumber": "1 403 828-6668",
+    "licenseDate": "2022-01-12",
+    "city": "Calgary",
+    "postalCode": "T3H 0H3",
+    "province": "AB",
+    "member": "James Han"
+  }
+]
+[2022-06-10T19:06:05.342] [INFO] logs_machine_undefined - undefined data: 12
+[2022-06-10T19:06:06.118] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.google-analytics.com/g/collect?v=2&tid=G-3SW3B8RMR8&gtm=2oe680&_p=1439342954&_z=ccd.tdB&cid=437478043.1654887936&ul=en-us&sr=800x600&_s=1&sid=1654887936&sct=1&seg=1&dl=https%3A%2F%2Fwww.apega.ca%2Fmembers%2Fpermit-holder-directory%3Fpage%3D5&dt=Permit%20Holder%20Directory%20%7C%20APEGA&en=page_view
+[2022-06-10T19:06:06.342] [INFO] logs_machine_undefined - undefined BEFORE SAVE DATA KBRON
+[2022-06-10T19:06:06.343] [INFO] logs_machine_undefined - undefined NEXT PAGE
+[2022-06-10T19:06:06.349] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/members/permit-holder-directory?page=6
+[2022-06-10T19:06:06.658] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.google-analytics.com/g/collect?v=2&tid=G-3SW3B8RMR8&gtm=2oe680&_p=1439342954&_z=ccd.tdB&cid=437478043.1654887936&ul=en-us&sr=800x600&_s=2&sid=1654887936&sct=1&seg=1&dl=https%3A%2F%2Fwww.apega.ca%2Fmembers%2Fpermit-holder-directory%3Fpage%3D5&dt=Permit%20Holder%20Directory%20%7C%20APEGA&en=user_engagement&_et=5532
+[2022-06-10T19:06:06.660] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/cdn-cgi/rum?
+[2022-06-10T19:06:06.680] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/ResourcePackages/Talon/assets/dist/css/main.min.css?package=Talon
+[2022-06-10T19:06:06.768] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.googletagmanager.com/gtm.js?id=GTM-WKMT44G
+[2022-06-10T19:06:07.046] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://ods.apega.ca/odata/v1/Register/Taxonomies?$orderby=Title
+[2022-06-10T19:06:07.124] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.googletagmanager.com/gtag/js?id=G-3SW3B8RMR8&l=dataLayer&cx=c
+[2022-06-10T19:06:07.126] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.google-analytics.com/analytics.js
+[2022-06-10T19:06:07.128] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.youtube.com/iframe_api
+[2022-06-10T19:06:07.130] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://connect.facebook.net/en_US/fbevents.js
+[2022-06-10T19:06:07.147] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://static.ads-twitter.com/uwt.js
+[2022-06-10T19:06:07.150] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://tags.srv.stackadapt.com/events.js
+[2022-06-10T19:06:07.256] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/cdn-cgi/rum?
+[2022-06-10T19:06:07.272] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.google-analytics.com/plugins/ua/linkid.js
+[2022-06-10T19:06:07.353] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://connect.facebook.net/signals/config/980776025421829?v=2.9.62&r=stable
+[2022-06-10T19:06:07.407] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.youtube.com/s/player/23010b46/www-widgetapi.vflset/www-widgetapi.js
+[2022-06-10T19:06:07.413] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://ods.apega.ca/odata/v1/Register/PermitHolders?$count=true&$top=12&$skip=60&$expand=ResponsibleMembers&$orderby=LegalName
+[2022-06-10T19:06:07.511] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://tags.srv.stackadapt.com/sa.jpeg
+[2022-06-10T19:06:08.319] [INFO] logs_machine_undefined - undefined PAGE 6
+[2022-06-10T19:06:08.337] [INFO] logs_machine_undefined - undefined Extracting data from page 6
+[2022-06-10T19:06:10.344] [INFO] logs_machine_undefined - undefined showing data extracted 
+
+[2022-06-10T19:06:11.346] [INFO] logs_machine_undefined - undefined data [
+  {
+    "name": "1730886 ALBERTA LTD.",
+    "permitNumber": "P15606",
+    "permitToPractice": "Engineering",
+    "address": "103 Auburn Shores Cres SE",
+    "phoneNumber": "1 403 542-5640",
+    "licenseDate": "2022-04-06",
+    "city": "Calgary",
+    "postalCode": "T3M 0X2",
+    "province": "AB",
+    "member": "Chris Johnson"
+  },
+  {
+    "name": "1731872 Alberta Ltd.",
+    "permitNumber": "P14938",
+    "permitToPractice": "Engineering",
+    "address": "303-1915 26 St SW",
+    "phoneNumber": "1 587 700-8333",
+    "licenseDate": "2020-09-02",
+    "city": "Calgary",
+    "postalCode": "T3E 2A2",
+    "province": "AB",
+    "member": "Dusan Jakovljevic"
+  },
+  {
+    "name": "1744589 Alberta Ltd.",
+    "permitNumber": "P15558",
+    "permitToPractice": "Engineering",
+    "address": "PO Box 443",
+    "phoneNumber": "1 780 905-8246",
+    "licenseDate": "2021-11-18",
+    "city": "Wabamun",
+    "postalCode": "T0E 2K0",
+    "province": "AB",
+    "member": "John Cocchio"
+  },
+  {
+    "name": "1787616 Alberta Ltd.",
+    "permitNumber": "P12582",
+    "permitToPractice": "Engineering",
+    "address": "1604 21 St NW",
+    "phoneNumber": "1 587 582-4838",
+    "licenseDate": "2014-02-19",
+    "city": "Calgary",
+    "postalCode": "T2N 2M2",
+    "province": "AB",
+    "member": "Elise Harlick"
+  },
+  {
+    "name": "1792480 Alberta Ltd.",
+    "permitNumber": "P13084",
+    "permitToPractice": "Engineering",
+    "address": "107 - 21546 TWP RD 520",
+    "phoneNumber": "1 587 336-0004",
+    "licenseDate": "2015-05-20",
+    "city": "Sherwood Park",
+    "postalCode": "T8E1G5",
+    "province": "AB",
+    "member": "Paul Rieder"
+  },
+  {
+    "name": "1803682 Alberta Ltd.",
+    "permitNumber": "P13665",
+    "permitToPractice": "Engineering",
+    "address": "8306 Davis Road",
+    "phoneNumber": "1 780 994-0744",
+    "licenseDate": "2016-10-04",
+    "city": "Edmonton",
+    "postalCode": "T6E 4Y5",
+    "province": "AB",
+    "member": "Daniel Vrabel"
+  },
+  {
+    "name": "1824291 Alberta Ltd.",
+    "permitNumber": "P14522",
+    "permitToPractice": "Engineering",
+    "address": "98 Woodstock Dr",
+    "phoneNumber": "1 780 970-1351",
+    "licenseDate": "2018-09-26",
+    "city": "Sherwood Park",
+    "postalCode": "T8A 4E2",
+    "province": "AB",
+    "member": "Jason Fan"
+  },
+  {
+    "name": "1833753 Alberta Ltd.",
+    "permitNumber": "P12810",
+    "permitToPractice": "Engineering",
+    "address": "532 32 AVE NE",
+    "phoneNumber": "1 403 988-9324",
+    "licenseDate": "2014-08-15",
+    "city": "Calgary",
+    "postalCode": "T2E 2H2",
+    "province": "AB",
+    "member": "No Responsible member"
+  },
+  {
+    "name": "1852200 Alberta Ltd.",
+    "permitNumber": "P15613",
+    "permitToPractice": "Engineering",
+    "address": "16 Mt Cascade Close SE",
+    "phoneNumber": "1 587 891-6563",
+    "licenseDate": "2022-03-12",
+    "city": "Calgary",
+    "postalCode": "T2Z 2K3",
+    "province": "AB",
+    "member": "Thea Kiley-Kubik"
+  },
+  {
+    "name": "1876304 Alberta Ltd.",
+    "permitNumber": "P15287",
+    "permitToPractice": "Engineering",
+    "address": "49",
+    "phoneNumber": "1 780 243-4935",
+    "licenseDate": "2021-01-28",
+    "city": "Sherwood Park",
+    "postalCode": "T8B 1H8",
+    "province": "AB",
+    "member": "Phil Prins"
+  },
+  {
+    "name": "1881727 Alberta Inc.",
+    "permitNumber": "P15412",
+    "permitToPractice": "Engineering",
+    "address": "806-1500 7 St SW",
+    "phoneNumber": "1 403 891-7008",
+    "licenseDate": "2021-05-26",
+    "city": "Calgary",
+    "postalCode": "T2R 1A7",
+    "province": "AB",
+    "member": "Filippo Segatori"
+  },
+  {
+    "name": "1900093 Alberta Ltd.",
+    "permitNumber": "P14237",
+    "permitToPractice": "Engineering",
+    "address": "2119 89B ST SW",
+    "phoneNumber": "1 780 2577096",
+    "licenseDate": "2018-01-23",
+    "city": "Edmonton",
+    "postalCode": "T6X 0R9",
+    "province": "AB",
+    "member": "Phil Rajotte"
+  }
+]
+[2022-06-10T19:06:11.347] [INFO] logs_machine_undefined - undefined data: 12
+[2022-06-10T19:06:12.342] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.google-analytics.com/g/collect?v=2&tid=G-3SW3B8RMR8&gtm=2oe680&_p=142682245&_z=ccd.tdB&cid=437478043.1654887936&ul=en-us&sr=800x600&_s=1&sid=1654887936&sct=1&seg=1&dl=https%3A%2F%2Fwww.apega.ca%2Fmembers%2Fpermit-holder-directory%3Fpage%3D6&dt=Permit%20Holder%20Directory%20%7C%20APEGA&en=page_view
+[2022-06-10T19:06:12.347] [INFO] logs_machine_undefined - undefined BEFORE SAVE DATA KBRON
+[2022-06-10T19:06:12.348] [INFO] logs_machine_undefined - undefined NEXT PAGE
+[2022-06-10T19:06:12.354] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/members/permit-holder-directory?page=7
+[2022-06-10T19:06:12.641] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.google-analytics.com/g/collect?v=2&tid=G-3SW3B8RMR8&gtm=2oe680&_p=142682245&_z=ccd.tdB&cid=437478043.1654887936&ul=en-us&sr=800x600&_s=2&sid=1654887936&sct=1&seg=1&dl=https%3A%2F%2Fwww.apega.ca%2Fmembers%2Fpermit-holder-directory%3Fpage%3D6&dt=Permit%20Holder%20Directory%20%7C%20APEGA&en=user_engagement&_et=5291
+[2022-06-10T19:06:12.643] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/cdn-cgi/rum?
+[2022-06-10T19:06:12.663] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/ResourcePackages/Talon/assets/dist/css/main.min.css?package=Talon
+[2022-06-10T19:06:12.723] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.googletagmanager.com/gtm.js?id=GTM-WKMT44G
+[2022-06-10T19:06:12.974] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://ods.apega.ca/odata/v1/Register/Taxonomies?$orderby=Title
+[2022-06-10T19:06:13.037] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.googletagmanager.com/gtag/js?id=G-3SW3B8RMR8&l=dataLayer&cx=c
+[2022-06-10T19:06:13.039] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.google-analytics.com/analytics.js
+[2022-06-10T19:06:13.041] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.youtube.com/iframe_api
+[2022-06-10T19:06:13.043] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://connect.facebook.net/en_US/fbevents.js
+[2022-06-10T19:06:13.045] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://static.ads-twitter.com/uwt.js
+[2022-06-10T19:06:13.047] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://tags.srv.stackadapt.com/events.js
+[2022-06-10T19:06:13.087] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/cdn-cgi/rum?
+[2022-06-10T19:06:13.227] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.google-analytics.com/plugins/ua/linkid.js
+[2022-06-10T19:06:13.254] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://connect.facebook.net/signals/config/980776025421829?v=2.9.62&r=stable
+[2022-06-10T19:06:13.329] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.youtube.com/s/player/23010b46/www-widgetapi.vflset/www-widgetapi.js
+[2022-06-10T19:06:13.352] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://ods.apega.ca/odata/v1/Register/PermitHolders?$count=true&$top=12&$skip=72&$expand=ResponsibleMembers&$orderby=LegalName
+[2022-06-10T19:06:13.398] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://tags.srv.stackadapt.com/sa.jpeg
+[2022-06-10T19:06:14.377] [INFO] logs_machine_undefined - undefined PAGE 7
+[2022-06-10T19:06:14.391] [INFO] logs_machine_undefined - undefined Extracting data from page 7
+[2022-06-10T19:06:16.399] [INFO] logs_machine_undefined - undefined showing data extracted 
+
+[2022-06-10T19:06:17.402] [INFO] logs_machine_undefined - undefined data [
+  {
+    "name": "1906613 Alberta Ltd.",
+    "permitNumber": "P13176",
+    "permitToPractice": "Engineering",
+    "address": "13 HUDSON CRES",
+    "phoneNumber": "1 780 417-5534",
+    "licenseDate": "2015-08-17",
+    "city": "Sherwood Park",
+    "postalCode": "T8A 5C7",
+    "province": "AB",
+    "member": "Stephen Irving"
+  },
+  {
+    "name": "1918533 Alberta Ltd. O/A Hart Engineering",
+    "permitNumber": "P13345",
+    "permitToPractice": "Engineering",
+    "address": "Bow Valley Square 2",
+    "phoneNumber": "1 403 819-9253",
+    "licenseDate": "2016-01-11",
+    "city": "Calgary",
+    "postalCode": "T2P 2V7",
+    "province": "AB",
+    "member": "Matthew Hartwig"
+  },
+  {
+    "name": "1938175 Alberta Inc.",
+    "permitNumber": "P14849",
+    "permitToPractice": "Engineering",
+    "address": "1319 21 St NW",
+    "phoneNumber": "1 403 807-0611",
+    "licenseDate": "2019-09-23",
+    "city": "Calgary",
+    "postalCode": "T2N 2M1",
+    "province": "AB",
+    "member": "Chris Gilmour"
+  },
+  {
+    "name": "1943163 Alberta Ltd.",
+    "permitNumber": "P14235",
+    "permitToPractice": "Engineering",
+    "address": "18809 87A AVE NW",
+    "phoneNumber": "1 780 619-7057",
+    "licenseDate": "2018-01-11",
+    "city": "Edmonton",
+    "postalCode": "T5T 5Z7",
+    "province": "AB",
+    "member": "Viorel Vasiu"
+  },
+  {
+    "name": "1947700 Alberta Ltd.",
+    "permitNumber": "P13394",
+    "permitToPractice": "Engineering",
+    "address": "10570 31 AVE NW",
+    "phoneNumber": "1 780 405-9417",
+    "licenseDate": "2016-02-16",
+    "city": "Edmonton",
+    "postalCode": "T6J 2Y3",
+    "province": "AB",
+    "member": "Marty Rybiak"
+  },
+  {
+    "name": "1948261 Alberta Ltd.",
+    "permitNumber": "P15648",
+    "permitToPractice": "Engineering",
+    "address": "60 Weston Dr SW",
+    "phoneNumber": "Without Phone Number",
+    "licenseDate": "2022-04-06",
+    "city": "Calgary",
+    "postalCode": "T3H 5G1",
+    "province": "AB",
+    "member": "Xiaoyan Liu"
+  },
+  {
+    "name": "1950851 Alberta Ltd.",
+    "permitNumber": "P13419",
+    "permitToPractice": "Engineering",
+    "address": "To",
+    "phoneNumber": "1 403 800-9752",
+    "licenseDate": "2016-03-01",
+    "city": "Amman",
+    "postalCode": "11192",
+    "province": "11192",
+    "member": "Samer Abou Karae"
+  },
+  {
+    "name": "1963401 Alberta Ltd.",
+    "permitNumber": "P13638",
+    "permitToPractice": "Engineering",
+    "address": "210-5940 Macleod Trail SW",
+    "phoneNumber": "1 403 470-8401",
+    "licenseDate": "2016-09-22",
+    "city": "Calgary",
+    "postalCode": "T2H 2G4",
+    "province": "AB",
+    "member": "Eric Sweet"
+  },
+  {
+    "name": "1970455 ALBERTA LTD.",
+    "permitNumber": "P15604",
+    "permitToPractice": "Engineering",
+    "address": "663 Tuscany Springs Blvd NW",
+    "phoneNumber": "1 403 615-5160",
+    "licenseDate": "2022-01-20",
+    "city": "Calgary",
+    "postalCode": "T3L 2Y2",
+    "province": "AB",
+    "member": "Yuchen Chen"
+  },
+  {
+    "name": "1973489 Alberta Ltd.",
+    "permitNumber": "P14528",
+    "permitToPractice": "Engineering",
+    "address": "145 Sienna Park Dr SW",
+    "phoneNumber": "1 587 777-5230",
+    "licenseDate": "2018-11-08",
+    "city": "Calgary",
+    "postalCode": "T3H 5H5",
+    "province": "AB",
+    "member": "Jongbum Joo"
+  },
+  {
+    "name": "1978616 Alberta Ltd.",
+    "permitNumber": "P13600",
+    "permitToPractice": "Engineering",
+    "address": "1724 EVERGREEN HILL SW",
+    "phoneNumber": "1 403 542-7514",
+    "licenseDate": "2016-08-15",
+    "city": "Calgary",
+    "postalCode": "T2Y 3B7",
+    "province": "AB",
+    "member": "Kenneth Johnson"
+  },
+  {
+    "name": "1982892 Alberta Ltd.",
+    "permitNumber": "P13601",
+    "permitToPractice": "Engineering",
+    "address": "63 TUSCANY GLEN PL NW",
+    "phoneNumber": "1 403 660-9145",
+    "licenseDate": "2016-08-15",
+    "city": "Calgary",
+    "postalCode": "T3L 2Z4",
+    "province": "AB",
+    "member": "Danielle Demers"
+  }
+]
+[2022-06-10T19:06:17.402] [INFO] logs_machine_undefined - undefined data: 12
+[2022-06-10T19:06:18.174] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.google-analytics.com/g/collect?v=2&tid=G-3SW3B8RMR8&gtm=2oe680&_p=1619779521&_z=ccd.tdB&cid=437478043.1654887936&ul=en-us&sr=800x600&_s=1&sid=1654887936&sct=1&seg=1&dl=https%3A%2F%2Fwww.apega.ca%2Fmembers%2Fpermit-holder-directory%3Fpage%3D7&dt=Permit%20Holder%20Directory%20%7C%20APEGA&en=page_view
+[2022-06-10T19:06:18.404] [INFO] logs_machine_undefined - undefined BEFORE SAVE DATA KBRON
+[2022-06-10T19:06:18.404] [INFO] logs_machine_undefined - undefined NEXT PAGE
+[2022-06-10T19:06:18.410] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/members/permit-holder-directory?page=8
+[2022-06-10T19:06:18.687] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.google-analytics.com/g/collect?v=2&tid=G-3SW3B8RMR8&gtm=2oe680&_p=1619779521&_z=ccd.tdB&cid=437478043.1654887936&ul=en-us&sr=800x600&_s=2&sid=1654887936&sct=1&seg=1&dl=https%3A%2F%2Fwww.apega.ca%2Fmembers%2Fpermit-holder-directory%3Fpage%3D7&dt=Permit%20Holder%20Directory%20%7C%20APEGA&en=user_engagement&_et=5505
+[2022-06-10T19:06:18.688] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/cdn-cgi/rum?
+[2022-06-10T19:06:18.719] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/ResourcePackages/Talon/assets/dist/css/main.min.css?package=Talon
+[2022-06-10T19:06:18.771] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.googletagmanager.com/gtm.js?id=GTM-WKMT44G
+[2022-06-10T19:06:18.971] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://ods.apega.ca/odata/v1/Register/Taxonomies?$orderby=Title
+[2022-06-10T19:06:19.032] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.googletagmanager.com/gtag/js?id=G-3SW3B8RMR8&l=dataLayer&cx=c
+[2022-06-10T19:06:19.034] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.google-analytics.com/analytics.js
+[2022-06-10T19:06:19.038] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.youtube.com/iframe_api
+[2022-06-10T19:06:19.044] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://connect.facebook.net/en_US/fbevents.js
+[2022-06-10T19:06:19.045] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://static.ads-twitter.com/uwt.js
+[2022-06-10T19:06:19.046] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://tags.srv.stackadapt.com/events.js
+[2022-06-10T19:06:19.104] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/cdn-cgi/rum?
+[2022-06-10T19:06:19.188] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.google-analytics.com/plugins/ua/linkid.js
+[2022-06-10T19:06:19.220] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://connect.facebook.net/signals/config/980776025421829?v=2.9.62&r=stable
+[2022-06-10T19:06:19.228] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.youtube.com/s/player/23010b46/www-widgetapi.vflset/www-widgetapi.js
+[2022-06-10T19:06:19.309] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://ods.apega.ca/odata/v1/Register/PermitHolders?$count=true&$top=12&$skip=84&$expand=ResponsibleMembers&$orderby=LegalName
+[2022-06-10T19:06:19.369] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://tags.srv.stackadapt.com/sa.jpeg
+[2022-06-10T19:06:20.405] [INFO] logs_machine_undefined - undefined PAGE 8
+[2022-06-10T19:06:20.420] [INFO] logs_machine_undefined - undefined Extracting data from page 8
+[2022-06-10T19:06:22.428] [INFO] logs_machine_undefined - undefined showing data extracted 
+
+[2022-06-10T19:06:23.429] [INFO] logs_machine_undefined - undefined data [
+  {
+    "name": "20/20 Engineering Inc.",
+    "permitNumber": "P14916",
+    "permitToPractice": "Engineering",
+    "address": "208-1032 E South Boulder Rd",
+    "phoneNumber": "1 303 926-0020",
+    "licenseDate": "2019-12-17",
+    "city": "Louisville",
+    "postalCode": "80027",
+    "province": "CO",
+    "member": "Kyle Manske"
+  },
+  {
+    "name": "2014558 Alberta Ltd.",
+    "permitNumber": "P14406",
+    "permitToPractice": "Engineering",
+    "address": "11-21 McKenzie Towne Gate SE",
+    "phoneNumber": "1 403 971-8326",
+    "licenseDate": "2018-07-03",
+    "city": "Calgary",
+    "postalCode": "T2Z 0C5",
+    "province": "AB",
+    "member": "Huong Nguyen"
+  },
+  {
+    "name": "2020 Solutions Group Inc.",
+    "permitNumber": "P15143",
+    "permitToPractice": "Engineering",
+    "address": "2934 111B St NW",
+    "phoneNumber": "1 780 231-9162",
+    "licenseDate": "2020-08-19",
+    "city": "Edmonton",
+    "postalCode": "T6J 3Y8",
+    "province": "AB",
+    "member": "Greg Wengreniuk"
+  },
+  {
+    "name": "2025348 Alberta Inc.",
+    "permitNumber": "P13857",
+    "permitToPractice": "Engineering",
+    "address": "2870 KOSHAL CRES SW",
+    "phoneNumber": "1 780 935-9322",
+    "licenseDate": "2017-03-14",
+    "city": "Edmonton",
+    "postalCode": "T6W 3J8",
+    "province": "AB",
+    "member": "Behnam Berahman"
+  },
+  {
+    "name": "2027203 Alberta Inc.",
+    "permitNumber": "P14600",
+    "permitToPractice": "Engineering",
+    "address": "1801-510 6 Ave SE",
+    "phoneNumber": "1 403 401-1570",
+    "licenseDate": "2018-12-12",
+    "city": "Calgary",
+    "postalCode": "T2G 1L7",
+    "province": "AB",
+    "member": "Amin Mirhadi"
+  },
+  {
+    "name": "2041812 Alberta Ltd.",
+    "permitNumber": "P15400",
+    "permitToPractice": "Engineering",
+    "address": "303 Glamorgan Cr SW",
+    "phoneNumber": "1 406 407-4692",
+    "licenseDate": "2021-06-08",
+    "city": "Calgary",
+    "postalCode": "T3E 5B7",
+    "province": "AB",
+    "member": "Jonathan Carlson"
+  },
+  {
+    "name": "2042681 Alberta Inc.",
+    "permitNumber": "P14891",
+    "permitToPractice": "Engineering",
+    "address": "60 Harcourt Rd SW",
+    "phoneNumber": "1 403 923-2686",
+    "licenseDate": "2020-01-16",
+    "city": "Calgary",
+    "postalCode": "T2V 3E1",
+    "province": "AB",
+    "member": "Raymond Christenson"
+  },
+  {
+    "name": "2045690 Alberta Ltd.",
+    "permitNumber": "P14014",
+    "permitToPractice": "Engineering",
+    "address": "1540-700 6 Ave SW",
+    "phoneNumber": "1 403 4769560",
+    "licenseDate": "2017-07-11",
+    "city": "Calgary",
+    "postalCode": "T2P 0T8",
+    "province": "AB",
+    "member": "Peter Poon"
+  },
+  {
+    "name": "2085767 Alberta Ltd.",
+    "permitNumber": "P14240",
+    "permitToPractice": "Engineering",
+    "address": "208 Somerglen Common SW",
+    "phoneNumber": "1 403 714-0514",
+    "licenseDate": "2018-01-16",
+    "city": "Calgary",
+    "postalCode": "T2Y 4E8",
+    "province": "AB",
+    "member": "Mike Henderson"
+  },
+  {
+    "name": "2091286 Alberta Ltd.",
+    "permitNumber": "P14512",
+    "permitToPractice": "Engineering",
+    "address": "2050 High Country Rise NW",
+    "phoneNumber": "1 403 336-2327",
+    "licenseDate": "2018-09-20",
+    "city": "High River",
+    "postalCode": "T1V 0C9",
+    "province": "AB",
+    "member": "D Radmanovich"
+  },
+  {
+    "name": "2097878 Alberta Ltd.",
+    "permitNumber": "P14308",
+    "permitToPractice": "Engineering",
+    "address": "20695 93 Ave NW",
+    "phoneNumber": "1 780 728-5285",
+    "licenseDate": "2018-04-04",
+    "city": "Edmonton",
+    "postalCode": "T5T 4B2",
+    "province": "AB",
+    "member": "Chris Lam"
+  },
+  {
+    "name": "2098185 Alberta Corp.",
+    "permitNumber": "P15417",
+    "permitToPractice": "Engineering",
+    "address": "99 Silverado Skies Dr SW",
+    "phoneNumber": "1 587 834-5080",
+    "licenseDate": "2021-06-01",
+    "city": "Calgary",
+    "postalCode": "T2X 0J6",
+    "province": "AB",
+    "member": "Hemang Parikh"
+  }
+]
+[2022-06-10T19:06:23.430] [INFO] logs_machine_undefined - undefined data: 12
+[2022-06-10T19:06:24.161] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.google-analytics.com/g/collect?v=2&tid=G-3SW3B8RMR8&gtm=2oe680&_p=1603996833&_z=ccd.tdB&cid=437478043.1654887936&ul=en-us&sr=800x600&_s=1&sid=1654887936&sct=1&seg=1&dl=https%3A%2F%2Fwww.apega.ca%2Fmembers%2Fpermit-holder-directory%3Fpage%3D8&dt=Permit%20Holder%20Directory%20%7C%20APEGA&en=page_view
+[2022-06-10T19:06:24.431] [INFO] logs_machine_undefined - undefined BEFORE SAVE DATA KBRON
+[2022-06-10T19:06:24.431] [INFO] logs_machine_undefined - undefined NEXT PAGE
+[2022-06-10T19:06:24.437] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/members/permit-holder-directory?page=9
+[2022-06-10T19:06:24.749] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.google-analytics.com/g/collect?v=2&tid=G-3SW3B8RMR8&gtm=2oe680&_p=1603996833&_z=ccd.tdB&cid=437478043.1654887936&ul=en-us&sr=800x600&_s=2&sid=1654887936&sct=1&seg=1&dl=https%3A%2F%2Fwww.apega.ca%2Fmembers%2Fpermit-holder-directory%3Fpage%3D8&dt=Permit%20Holder%20Directory%20%7C%20APEGA&en=user_engagement&_et=5578
+[2022-06-10T19:06:24.750] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/cdn-cgi/rum?
+[2022-06-10T19:06:24.953] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.youtube.com/iframe_api
+[2022-06-10T19:06:24.961] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://static.ads-twitter.com/uwt.js
+[2022-06-10T19:06:24.964] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://tags.srv.stackadapt.com/events.js
+[2022-06-10T19:06:25.111] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://connect.facebook.net/signals/config/980776025421829?v=2.9.62&r=stable
+[2022-06-10T19:06:25.266] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://ods.apega.ca/odata/v1/Register/Taxonomies?$orderby=Title
+[2022-06-10T19:06:25.369] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.youtube.com/s/player/23010b46/www-widgetapi.vflset/www-widgetapi.js
+[2022-06-10T19:06:25.389] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://tags.srv.stackadapt.com/sa.jpeg
+[2022-06-10T19:06:25.523] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://www.apega.ca/cdn-cgi/rum?
+[2022-06-10T19:06:25.553] [INFO] logs_machine_undefined - undefined NO BLOCKED:https://ods.apega.ca/odata/v1/Register/PermitHolders?$count=true&$top=12&$skip=96&$expand=ResponsibleMembers&$orderby=LegalName
+[2022-06-10T19:06:26.284] [INFO] logs_machine_undefined - undefined PAGE 9
+[2022-06-10T19:06:26.298] [INFO] logs_machine_undefined - undefined Extracting data from page 9
