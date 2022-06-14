@@ -11,9 +11,11 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.27.2",
+    "fs": "0.0.1-security",
     "log4js": "^6.5.2",
     "moment": "^2.29.3",
     "mongoose": "^6.3.5",
+    "path": "^0.12.7",
     "puppeteer": "^14.1.2",
     "socks-proxy-agent": "^6.0.0"
   }

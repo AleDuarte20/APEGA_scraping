@@ -3,15 +3,32 @@ const mongooseHelper = require('../generic-helper/MongooseHelper')
 const db = new mongooseHelper('127.0.0.1:27017','Apega')
 let datosModel = require('../Model/usersModel')
 
+const path = require('path');
+const TorProxyHelper = require('../generic-helper/TorProxyHelper')
+const torAxios = new TorProxyHelper()
+
 
 class functions {
     constructor(logger){
         this.logger = logger
     }
 
-    async createPage(page, url, onRequest, onResponse) {
+    getLastVersionStaticResource(filenameRegExp){
+        const fs = require('fs')
+        const staticResourcesPath = path.join(__dirname, 'static-resources')
+        // this.logger.info(`staticResourcesPath:${staticResourcesPath}`)
+        let filenames;
+        try {
+        filenames = fs.readdirSync(staticResourcesPath).filter(item=> new RegExp(filenameRegExp).test(item)).map(item=>({filename:item, version:item.replace(/[^\d]/g, ''), mtime: fs.lstatSync(path.join(staticResourcesPath, item)).mtime.getTime()})).sort((a, b) => b.mtime - a.mtime)
+        } catch (error) {
+        this.logger.info(error)
+        }
+        this.logger.info(`########## filename:${filenames && filenames.length > 0 && filenames[0].filename}`)
+        return filenames && filenames.length > 0 && filenames[0].filename
+    }
 
-        //TODO hacer que cambie de url en la misma ventana
+    async createPage(page, onRequest, onResponse) {
+
         this.logger.info('INSIDE CREATE PAGE')
         const options = {
             headless: false,
@@ -31,17 +48,7 @@ class functions {
             options.args.push('--no-sandbox')   
         }
         // let browser = await puppeteer.launch(options);
-        // let browser = page ? page.browser() : await puppeteer.launch(options);
         let browser = page ? page.browser() : await puppeteer.launch(options);
-        // try {
-        //     if (page) {
-        //         page = page 
-        //     }else{
-        //         page = await browser.newPage();
-        //     }
-        // } catch (error) {
-        //     this.logger.info()
-        // }
      
         const [tabOne] = await browser.pages();
         page = await browser.newPage();
@@ -58,13 +65,97 @@ class functions {
         }
 
         await page.setRequestInterception(true);
-        page.on('request', (request) => {
+        page.on('request', async request => {
+        const fs = require('fs')
     
             request.alreadyHandled = false
     
-            const block_ressources = ['image','font', 'texttrack', 'manifest'];
+            const block_ressources = ['image', 'manifest'];
             // const block_ressources = ['image', 'media',  'font', 'texttrack', 'object', 'beacon', 'csp_report', 'imageset', 'manifest'];
     
+            onRequest ? await onRequest(request) : null
+
+            if(/.*Taxonomies.*/g.test(request.url())){ 
+                const filename = this.getLastVersionStaticResource('Taxonomies.*')
+                // this.logger.info(`filename:${filename}`)
+                if(filename) {
+                  const filePath = path.join(__dirname, "static-resources", filename)
+                //   console.log(`file path:${filePath}`)
+                  const fileStr = fs.readFileSync(filePath, "utf8")
+                //   console.log(`file length:${fileStr.length}`)
+                  if(fileStr) {
+                      request.respond({
+                        status: request.statusCode,
+                        contentType: request.headers['content-type'],
+                        "method": "GET",
+                        body: fileStr
+                    });
+                    request.alreadyHandled = true
+                  }
+                }
+            }
+
+            if(/permitholders.*\.js/g.test(request.url())){ 
+                const filename = this.getLastVersionStaticResource('permitholders.*\.js')
+                // this.logger.info(`filename:${filename}`)
+                if(filename) {
+                  const filePath = path.join(__dirname, "static-resources", filename)
+                //   console.log(`file path:${filePath}`)
+                  const fileStr = fs.readFileSync(filePath, "utf8")
+                //   console.log(`file length:${fileStr.length}`)
+                  if(fileStr) {
+                      request.respond({
+                        status: request.statusCode,
+                        contentType: request.headers['content-type'],
+                        "method": "GET",
+                        body: fileStr
+                    });
+                    request.alreadyHandled = true
+                  }
+                }
+            }
+
+            if(/.*base.*\.js/g.test(request.url())){ 
+                const filename = this.getLastVersionStaticResource('.*base.*')
+                // this.logger.info(`filename:${filename}`)
+                if(filename) {
+                  const filePath = path.join(__dirname, "static-resources", filename)
+                //   console.log(`file path:${filePath}`)
+                  const fileStr = fs.readFileSync(filePath, "utf8")
+                //   console.log(`file length:${fileStr.length}`)
+                  if(fileStr) {
+                      request.respond({
+                        status: request.statusCode,
+                        contentType: request.headers['content-type'],
+                        "method": "GET",
+                        body: fileStr
+                    });
+                    request.alreadyHandled = true
+                  }
+                }
+            }
+
+            // if(/.*Register\/PermitHolders.*/g.test(request.url())){ 
+
+            //     const filename = this.getLastVersionStaticResource('PermitHolder\.har')
+            //     // this.logger.info(`filename:${filename}`)
+            //     if(filename) {
+            //       const filePath = path.join(__dirname, "static-resources", filename)
+            //     //   console.log(`file path:${filePath}`)
+            //       const fileStr = fs.readFileSync(filePath, "utf8")
+            //     //   console.log(`file length:${fileStr.length}`)
+            //       if(fileStr) {
+            //           request.respond({
+            //             status: request.statusCode,
+            //             contentType: request.headers['content-type'],
+            //             "method": "GET",
+            //             body: fileStr
+            //         });
+            //         request.alreadyHandled = true
+            //       }
+            //     }
+            // }
+
             if (!request.alreadyHandled) {
                 if (block_ressources.indexOf(request.resourceType()) !== -1) {
                     request.abort()
@@ -75,6 +166,12 @@ class functions {
                 
             }
         });
+
+        // page.on('response', (response) => {
+
+        //   onResponse ? await onResponse(response) : null
+
+        // })
 
         return page;
     };
@@ -187,6 +284,8 @@ class functions {
         })
         return response
     }
+
+   
 
 } 
 module.exports = functions
