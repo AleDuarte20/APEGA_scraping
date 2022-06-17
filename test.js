@@ -7,8 +7,8 @@ process.env.uuid = (new Date()).getTime().toString(36) + Math.random().toString(
 let proxy = settings.proxy
 process.env.proxy ? logger.info(process.env.proxy) : logger.info('proxy not exits')
 
-logger = require('./generic-helper/Log').build()
-const Settings = require('./Settings')
+logger = require('./generic-helper/Log').build();
+const Settings = require('./Settings');
 settings = Settings.build();
 
 const TorProxyHelper = require('./generic-helper/TorProxyHelper')
@@ -81,10 +81,20 @@ async function testTorAxios() {
     logger.info(`testGetCategoryLastPagination:${JSON.stringify(response.data)}`)
 }
 
+async function testExtractData(){
+    const extractData = require('./extractData')
+    let page;
+    // let url =`https://www.apega.ca/members/permit-holder-directory?page=`
+
+    // const results = await extractData(undefined,url)
+    const results = await extractData(page,undefined)
+}
+
 
 ;(async () =>{
     // await testMongoose();
     // await testMongoClient();
-    await testTorAxios();
+    // await testTorAxios();
     // await testRequestUsingTor();
+    await testExtractData()
  })()

@@ -27,12 +27,12 @@ class functions {
         return filenames && filenames.length > 0 && filenames[0].filename
     }
 
-    async createPage(page, onRequest, onResponse) {
+    async createPage(page,onRequest,onResponse) {
 
         this.logger.info('INSIDE CREATE PAGE')
         const options = {
             headless: false,
-            devtools: true,
+            devtools: false,
             defaultViewport: { width: 1366, height: 768 },
             args:[]
         } 
@@ -160,7 +160,7 @@ class functions {
                 if (block_ressources.indexOf(request.resourceType()) !== -1) {
                     request.abort()
                 }else{
-                    logger.info(`NO BLOCKED:${request.url()}`)
+                    // logger.info(`NO BLOCKED:${request.url()}`)
                     request.continue()
                 }
                 
@@ -172,9 +172,11 @@ class functions {
         //   onResponse ? await onResponse(response) : null
 
         // })
+        this.logger.info(`PAGE ALREADY CREATED`)
 
         return page;
     };
+
 
     async saveData(data, page){
         this.logger.info('INSIDE SAVEDATA')
@@ -218,71 +220,80 @@ class functions {
 
     async extractUsers(page){
         this.logger.info('INSIDE EXTRACT_USERS')
-        let response = await page.evaluate(()=>{
-            const lista = document.querySelectorAll('.service__item-title ');
-            const subList =  document.querySelectorAll('.service__detail-list');
-            let apegaData = [];
-            for (let i = 0; i < lista.length; i++) {
-                
-                let item = lista[i]
-                // logger.info(item)
-
-                let item2 = subList[i]
-                // logger.info(item2)
-                
-                let name = item.querySelector('.service__item-link').innerText
-                // name ? name = name.innerText : name = item.querySelector('.service__item-link .active').innerText
-                // logger.info(name)
-                
-                let permitNumber = item2.querySelector('.service__detail-list li').innerText.split(':')[1].trim()
-                // logger.info(permitNumber)
+        try {
+            
+            let response = await page.evaluate(()=>{
+                const lista = document.querySelectorAll('.service__item-title ');
+                const subList =  document.querySelectorAll('.service__detail-list');
+                let apegaData = [];
+                for (let i = 0; i < lista.length; i++) {
                     
-                let permitToPractice = item2.querySelector('.service__list li .service__detail-list li+li').innerText.split(':')[1].trim()
-                // logger.info(permitToPractice)
-            
-                let address = item2.querySelector('.service__list li .service__detail-list li+li+li').innerText.split(':')[1].trim()
-                // logger.info(address)
-            
-                let phoneNumber = item2.querySelector('.service__list li .service__detail-list li+li+li+li').innerText//.split(':')[1].trim()
-                phoneNumber.includes('Phone') ? phoneNumber = phoneNumber.split(':')[1].trim() : phoneNumber ='Without Phone Number'
-                // logger.info(phoneNumber)
-            
-                let licenseDate = item2.querySelector('.service__list li .service__detail-list li+li+li+li+li').innerText//.split(':')[1]
-                licenseDate.includes('License') ? licenseDate = licenseDate.split(':')[1] : licenseDate = item2.querySelector('.service__list li .service__detail-list li+li+li+li').innerText.split(':')[1].trim()
-                // logger.info(licenseDate)
-            
-                let city =  item2.querySelector('.service__list li .service__detail-list li+li+li+li+li+li').innerText//.split(':')[1]
-                city.includes('City') ? city = city.split(':')[1] : city = item2.querySelector('.service__list li .service__detail-list li+li+li+li+li').innerText.split(':')[1].trim()
-                // logger.info(city)
-            
-                let postalCode = item2.querySelector('.service__list li .service__detail-list li+li+li+li+li+li+li').innerText//.replace('\n','').split(':')[1]
-                if(postalCode.includes('Postal Code')){
-                    postalCode = postalCode.replace('\n','').split(':')[1]
-                }else if(postalCode.includes('Province')){
-                    postalCode = item2.querySelector('.service__list li .service__detail-list li+li+li+li+li+li').innerText//.replace('\n','').split(':')[1]
-                    postalCode.includes('City') ? postalCode = 'Whithout Postal Code' : postalCode = postalCode.replace('\n','').split(':')[1]
-                }
-                // logger.info(postalCode )
-            
-                let province = item2.querySelector('.service__list li .service__detail-list li+li+li+li+li+li+li+li')//.innerText
-                if(province == null){
-                    province = item2.querySelector('.service__list li .service__detail-list li+li+li+li+li+li+li').innerText.replace('\n','').split(':')[1]
-                }else if(province.innerText.includes('Responsible')){
-                    province = item2.querySelector('.service__list li .service__detail-list li+li+li+li+li+li+li').innerText.replace('\n','').split(':')[1]
-                }else if(province.innerText.includes('Province')){
-                    province = province.innerText.replace('\n','').split(':')[1]
-                }
-                // logger.info(province)
-            
-                let member = item2.querySelector('.service__list li a')
-                member == null ? member = "No Responsible member" : member = member.innerText
-                // logger.info(member)
+                    let item = lista[i]
+                    // logger.info(item)
+    
+                    let item2 = subList[i]
+                    // logger.info(item2)
+                    
+                    let name = item.querySelector('.service__item-link').innerText
+                    // name ? name = name.innerText : name = item.querySelector('.service__item-link .active').innerText
+                    // logger.info(name)
+                    
+                    let permitNumber = item2.querySelector('.service__detail-list li').innerText.split(':')[1].trim()
+                    // logger.info(permitNumber)
+                        
+                    let permitToPractice = item2.querySelector('.service__list li .service__detail-list li+li').innerText.split(':')[1].trim()
+                    // logger.info(permitToPractice)
+                
+                    let address = item2.querySelector('.service__list li .service__detail-list li+li+li').innerText.split(':')[1].trim()
+                    // logger.info(address)
+                
+                    let phoneNumber = item2.querySelector('.service__list li .service__detail-list li+li+li+li').innerText//.split(':')[1].trim()
+                    phoneNumber.includes('Phone') ? phoneNumber = phoneNumber.split(':')[1].trim() : phoneNumber ='Without Phone Number'
+                    // logger.info(phoneNumber)
+                
+                    let licenseDate = item2.querySelector('.service__list li .service__detail-list li+li+li+li+li').innerText//.split(':')[1]
+                    licenseDate.includes('License') ? licenseDate = licenseDate.split(':')[1] : licenseDate = item2.querySelector('.service__list li .service__detail-list li+li+li+li').innerText.split(':')[1].trim()
+                    // logger.info(licenseDate)
+                
+                    let city =  item2.querySelector('.service__list li .service__detail-list li+li+li+li+li+li').innerText//.split(':')[1]
+                    city.includes('City') ? city = city.split(':')[1] : city = item2.querySelector('.service__list li .service__detail-list li+li+li+li+li').innerText.split(':')[1].trim()
+                    // logger.info(city)
+                
+                    let postalCode = item2.querySelector('.service__list li .service__detail-list li+li+li+li+li+li+li').innerText//.replace('\n','').split(':')[1]
+                    if(postalCode.includes('Postal Code')){
+                        postalCode = postalCode.replace('\n','').split(':')[1]
+                    }else if(postalCode.includes('Province')){
+                        postalCode = item2.querySelector('.service__list li .service__detail-list li+li+li+li+li+li').innerText//.replace('\n','').split(':')[1]
+                        postalCode.includes('City') ? postalCode = 'Whithout Postal Code' : postalCode = postalCode.replace('\n','').split(':')[1]
+                    }
+                    // logger.info(postalCode )
+                
+                    let province = item2.querySelector('.service__list li .service__detail-list li+li+li+li+li+li+li+li')//.innerText
+                    if(province == null){
+                        province = item2.querySelector('.service__list li .service__detail-list li+li+li+li+li+li+li').innerText.replace('\n','').split(':')[1]
+                    }else if(province.innerText.includes('Responsible')){
+                        province = item2.querySelector('.service__list li .service__detail-list li+li+li+li+li+li+li').innerText.replace('\n','').split(':')[1]
+                    }else if(province.innerText.includes('Province')){
+                        province = province.innerText.replace('\n','').split(':')[1]
+                    }
+                    // logger.info(province)
+                
+                    let member = item2.querySelector('.service__list li a')
+                    member == null ? member = "No Responsible member" : member = member.innerText
+                    // logger.info(member)
+    
+                    apegaData.push({name,permitNumber,permitToPractice,address,phoneNumber,licenseDate,city,postalCode,province,member})
+    
+                } return apegaData  
+            })
+            if (response.length == 0) {
+                await this.retryPage(page)
+            }
+            return response
 
-                apegaData.push({name,permitNumber,permitToPractice,address,phoneNumber,licenseDate,city,postalCode,province,member})
-
-            } return apegaData  
-        })
-        return response
+        } catch (e) {
+            this.logger.info(`ERROR ${e}`)
+        }
     }
 
    
